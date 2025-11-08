@@ -43,6 +43,10 @@
 
 ##
 
+<p>Support for converting documents, audio, and video files will be added soon.</p>
+
+##
+
 <div align="center">
   <h3>Socials:</h3>
   
