@@ -1,0 +1,40 @@
+﻿using Microsoft.UI.Xaml;
+using System.Collections.Generic;
+using Windows.Storage;
+
+namespace File_Converter_Utility
+{
+    internal class ThemeHelper
+    {
+        static public List<Window> ActiveWindows { get { return _activeWindows; } }
+        static private List<Window> _activeWindows = new List<Window>();
+
+        public static ElementTheme RootTheme
+        {
+            get
+            {
+                foreach (Window window in ActiveWindows)
+                {
+                    if (window.Content is FrameworkElement rootElement)
+                    {
+                        return rootElement.RequestedTheme;
+                    }
+                }
+
+                return ElementTheme.Default;
+            }
+            set
+            {
+                foreach (Window window in ActiveWindows)
+                {
+                    if (window.Content is FrameworkElement rootElement)
+                    {
+                        rootElement.RequestedTheme = value;
+                    }
+                }
+
+                ApplicationData.Current.LocalSettings.Values["AppTheme"] = value.ToString();
+            }
+        }
+    }
+}

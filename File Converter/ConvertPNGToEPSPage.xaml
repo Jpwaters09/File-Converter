@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="File_Converter_Utility.ConvertPNGToEPSPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:File_Converter_Utility"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Padding="36, 40, 36, 40">
+        <TextBlock Text="PNG To EPS" Style="{ThemeResource TitleTextBlockStyle}" Margin="0, 0, 0, 36"/>
+
+        <TextBox x:Name="ImagePath" IsReadOnly="True" PlaceholderText="Image Path:" Margin="0, 0, 0, 12"/>
+        <Button x:Name="SelectImageButton" Content="Select Image" Click="SelectImage" Margin="0, 0, 0, 16"/>
+
+        <TextBox x:Name="OutputFolderPath" IsReadOnly="True" PlaceholderText="Output Image Folder:" Margin="0, 0, 0, 12"/>
+        <Button x:Name="SelectOutputFolderButton" Content="Select Output Folder" Click="SelectOutputImage" Margin="0, 0, 0, 16"/>
+
+        <Button x:Name="ConvertButton" Content="Convert" IsEnabled="False" Margin="0, 0, 0, 16" Click="ConvertButton_Click"/>
+        <ProgressRing x:Name="progressRing" IsActive="False" HorizontalAlignment="Left"/>
+    </StackPanel>
+</Page>
