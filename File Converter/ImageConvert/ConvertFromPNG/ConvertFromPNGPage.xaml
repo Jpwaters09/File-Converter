@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="File_Converter_Utility.ConvertFromPNGPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:File_Converter_Utility"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Padding="36, 40, 36, 40">
+        <TextBlock x:Uid="PNGConversionTextBlock" Style="{ThemeResource TitleTextBlockStyle}" Margin="0, 0, 0, 36"/>
+
+        <TextBlock x:Uid="ConvertToTextBlock" Style="{ThemeResource SubtitleTextBlockStyle}" Margin="0, 0, 0, 12"/>
+        <ScrollViewer HorizontalScrollMode="Auto" HorizontalScrollBarVisibility="Auto">
+            <StackPanel Orientation="Vertical" Spacing="8">
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <Button Padding="12" Click="RedirectToPNGToBMPConversion">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <FontIcon Glyph="&#xE8B9;"/>
+                            <TextBlock Text="BMP" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button Padding="12" Click="RedirectToPNGToEPSConversion">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <FontIcon Glyph="&#xE8B9;"/>
+                            <TextBlock Text="EPS" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button Padding="12" Click="RedirectToPNGToGIFConversion">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <FontIcon Glyph="&#xE8B9;"/>
+                            <TextBlock Text="GIF" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button Padding="12" Click="RedirectToPNGToICOConversion">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <FontIcon Glyph="&#xE8B9;"/>
+                            <TextBlock Text="ICO" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button Padding="12" Click="RedirectToPNGToJPEGConversion">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <FontIcon Glyph="&#xE8B9;"/>
+                            <TextBlock Text="JPEG" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <Button Padding="12" Click="RedirectToPNGToJPGConversion">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <FontIcon Glyph="&#xE8B9;"/>
+                            <TextBlock Text="JPG" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button Padding="12" Click="RedirectToPNGToPSDConversion">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <FontIcon Glyph="&#xE8B9;"/>
+                            <TextBlock Text="PSD" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button Padding="12" Click="RedirectToPNGToSVGConversion">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <FontIcon Glyph="&#xE8B9;"/>
+                            <TextBlock Text="SVG" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button Padding="12" Click="RedirectToPNGToTGAConversion">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <FontIcon Glyph="&#xE8B9;"/>
+                            <TextBlock Text="TGA" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button Padding="12" Click="RedirectToPNGToTIFFConversion">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <FontIcon Glyph="&#xE8B9;"/>
+                            <TextBlock Text="TIFF" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <Button Padding="12" Click="RedirectToPNGToWebPConversion">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <FontIcon Glyph="&#xE8B9;"/>
+                            <TextBlock Text="WebP" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </StackPanel>
+</Page>

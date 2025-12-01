@@ -27,7 +27,7 @@
 ##
 
 </div>
-<p>Supported File Conversions:</p>
+<p><b>Supported File Conversions:</b></p>
 
 <ul>
     <li><p>PNG To:</p>
@@ -37,9 +37,46 @@
         <li>GIF</li>
         <li>ICO</li>
         <li>JPEG</li>
+        <li>JPG</li>
+        <li>PSD</li>
+        <li>SVG</li>
+        <li>TGA</li>
+        <li>TIFF</li>
+        <li>WebP</li>
     </ul>
     </li>
 </ul>
+
+##
+
+<p><b>Supported Languages:</b></p>
+
+<p>Some translations may be inaccurate.</p>
+
+<ul>
+  <li>Afrikaans</li>
+  <li>Arabic</li>
+  <li>Bengla</li>
+  <li>Danish</li>
+  <li>German</li>
+  <li>English (Australia)</li>
+  <li>English (Canada)</li>
+  <li>English (United Kingdom)</li>
+  <li>English (United States)</li>
+  <li>Spanish</li>
+  <li>Filipino</li>
+  <li>French</li>
+  <li>Hindi</li>
+  <li>Italian</li>
+  <li>Japanese</li>
+  <li>Nepali</li>
+  <li>Dutch</li>
+  <li>Russian</li>
+  <li>Turkish</li>
+  <li>Ukrainian</li>
+  <li>Vietnamese</li>
+  <li>Chinese (Simplified)</li>
+  <li>Chinese (Traditional)</li>
 
 ##
 

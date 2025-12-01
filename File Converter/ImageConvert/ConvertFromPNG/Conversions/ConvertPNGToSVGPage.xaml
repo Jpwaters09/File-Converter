@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="File_Converter_Utility.ConvertPNGToSVGPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:File_Converter_Utility"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Padding="36, 40, 36, 40">
+        <TextBlock x:Uid="PNGToSVGTextBlock" Style="{ThemeResource TitleTextBlockStyle}" Margin="0, 0, 0, 36"/>
+
+        <TextBox x:Name="ImagePath" IsReadOnly="True" x:Uid="ImagePathTextBox" Margin="0, 0, 0, 12"/>
+        <Button x:Name="SelectImageButton" x:Uid="SelectImageButton" Click="SelectImage" Margin="0, 0, 0, 16"/>
+
+        <TextBox x:Name="OutputFolderPath" IsReadOnly="True" x:Uid="OutputImageFolderTextBox" Margin="0, 0, 0, 12"/>
+        <Button x:Name="SelectOutputFolderButton" x:Uid="SelectOutputFolderButton" Click="SelectOutputImage" Margin="0, 0, 0, 16"/>
+
+        <CheckBox x:Name="StripMetadataCheckBox" x:Uid="StripMetadataCheckBox" Margin="0, 0, 0, 16"/>
+
+        <Button x:Name="ConvertButton" x:Uid="ConvertButton" IsEnabled="False" Margin="0, 0, 0, 16" Click="ConvertButton_Click"/>
+        <ProgressRing x:Name="progressRing" IsActive="False" HorizontalAlignment="Left"/>
+    </StackPanel>
+</Page>

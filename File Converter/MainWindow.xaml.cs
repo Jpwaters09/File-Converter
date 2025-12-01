@@ -19,6 +19,7 @@ namespace File_Converter_Utility
         {
             InitializeComponent();
 
+
             ThemeHelper.ActiveWindows.Add(this);
 
             string? savedTheme = ApplicationData.Current.LocalSettings.Values["AppTheme"]?.ToString();
@@ -161,6 +162,30 @@ namespace File_Converter_Utility
 
                 case "ConvertPNGToICO":
                     pageType = typeof(ConvertPNGToICOPage);
+                    break;
+
+                case "ConvertPNGToJPG":
+                    pageType = typeof(ConvertPNGToJPGPage);
+                    break;
+
+                case "ConvertPNGToPSD":
+                    pageType = typeof(ConvertPNGToPSDPage);
+                    break;
+
+                case "ConvertPNGToSVG":
+                    pageType = typeof(ConvertPNGToSVGPage);
+                    break;
+
+                case "ConvertPNGToTGA":
+                    pageType = typeof(ConvertPNGToTGAPage);
+                    break;
+
+                case "ConvertPNGToTIFF":
+                    pageType = typeof(ConvertPNGToTIFFPage);
+                    break;
+
+                case "ConvertPNGToWebP":
+                    pageType = typeof(ConvertPNGToWebPPage);
                     break;
             }
 

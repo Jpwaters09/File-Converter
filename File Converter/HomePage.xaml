@@ -9,14 +9,14 @@
     mc:Ignorable="d">
 
     <StackPanel Padding="36, 40, 36, 40">
-        <TextBlock Text="File Converter" Style="{ThemeResource TitleTextBlockStyle}" Margin="0, 0, 0, 36"/>
+        <TextBlock x:Uid="FileConverterTextBlock" Style="{ThemeResource TitleTextBlockStyle}" Margin="0, 0, 0, 36"/>
 
-        <TextBlock Text="Convert" Style="{ThemeResource SubtitleTextBlockStyle}" Margin="0, 0, 0, 12"/>
+        <TextBlock x:Uid="ConvertTextBlock" Style="{ThemeResource SubtitleTextBlockStyle}" Margin="0, 0, 0, 12"/>
 
         <Button Padding="12" Click="RedirectToImageConversion">
             <StackPanel Orientation="Horizontal" Spacing="8">
                 <FontIcon Glyph="&#xE8B9;"/>
-                <TextBlock Text="Image" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                <TextBlock x:Uid="ImageTextBlock" Style="{ThemeResource SubtitleTextBlockStyle}"/>
             </StackPanel>
         </Button>
     </StackPanel>

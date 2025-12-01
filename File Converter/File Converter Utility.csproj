@@ -1,0 +1,167 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <RootNamespace>File_Converter_Utility</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Platforms>x86;x64;ARM64</Platforms>
+    <RuntimeIdentifiers>win-x86;win-x64;win-arm64</RuntimeIdentifiers>
+    <UseWinUI>true</UseWinUI>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="ConvertFromPNGPage.xaml" />
+    <None Remove="ConvertPNGToBMPPage.xaml" />
+    <None Remove="ConvertPNGToEPSPage.xaml" />
+    <None Remove="ConvertPNGToGIFPage.xaml" />
+    <None Remove="ConvertPNGToICOPage.xaml" />
+    <None Remove="ConvertPNGToJPEGPage.xaml" />
+    <None Remove="ConvertPNGToJPGPage.xaml" />
+    <None Remove="ConvertPNGToPSDPage.xaml" />
+    <None Remove="ConvertPNGToSVGPage.xaml" />
+    <None Remove="ConvertPNGToTGAPage.xaml" />
+    <None Remove="ConvertPNGToTIFFPage.xaml" />
+    <None Remove="ConvertPNGToWebPPage.xaml" />
+    <None Remove="HomePage.xaml" />
+    <None Remove="ImagePage.xaml" />
+    <None Remove="SettingsPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="File Converter Logo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Manifest Include="$(ApplicationManifest)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\File Converter Logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="14.9.1" />
+    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.26100.6901" />
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.8.251106002" />
+    <PackageReference Include="System.Windows.Extensions" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="ConvertPNGToICOPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="ConvertPNGToGIFPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="ConvertPNGToEPSPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="ConvertPNGToBMPPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="ConvertPNGToJPEGPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="ConvertFromPNGPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="ImagePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="SettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="HomePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PRIResource Update="Strings\en-GB\Resources.resw">
+      <Generator></Generator>
+    </PRIResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ImageConvert\ConvertFromPNG\Conversions\" />
+    <Folder Include="Strings\NewFolder\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="ConvertPNGToWebPPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="ConvertPNGToTIFFPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="ConvertPNGToTGAPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="ConvertPNGToSVGPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="ConvertPNGToPSDPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="ConvertPNGToJPGPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+    <!-- Publish Properties -->
+  <PropertyGroup>
+    <PublishReadyToRun Condition="'$(Configuration)' == 'Debug'">False</PublishReadyToRun>
+    <PublishReadyToRun Condition="'$(Configuration)' != 'Debug'">True</PublishReadyToRun>
+    <PublishTrimmed Condition="'$(Configuration)' == 'Debug'">False</PublishTrimmed>
+    <PublishTrimmed Condition="'$(Configuration)' != 'Debug'">True</PublishTrimmed>
+    <AssemblyName>File Converter</AssemblyName>
+    <Title>File Converter</Title>
+    <Description>A fast and reliable file converter that seamlessly transforms images into your desired formats.</Description>
+    <Copyright>Copyright © 2025 Jacob Waters</Copyright>
+    <NeutralLanguage>en-GB</NeutralLanguage>
+    <ApplicationIcon>File Converter Logo.ico</ApplicationIcon>
+    <PackageIcon>File Converter Logo.png</PackageIcon>
+  </PropertyGroup>
+</Project>

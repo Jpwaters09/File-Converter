@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutTextBlock.Text" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="AppearanceAndBehaviourTextBlock.Text" xml:space="preserve">
+    <value>Udseende og adfærd</value>
+  </data>
+  <data name="AppThemeTextBlock.Text" xml:space="preserve">
+    <value>App-tema</value>
+  </data>
+  <data name="ContactMeTextBlock.Text" xml:space="preserve">
+    <value>Kontakt mig</value>
+  </data>
+  <data name="ConvertButton.Content" xml:space="preserve">
+    <value>Konvertere</value>
+  </data>
+  <data name="ConvertFromNavigationViewItemHeader.Content" xml:space="preserve">
+    <value>Konvertér fra</value>
+  </data>
+  <data name="ConvertFromTextBlock.Text" xml:space="preserve">
+    <value>Konvertér fra</value>
+  </data>
+  <data name="ConvertNavigationViewItem.Content" xml:space="preserve">
+    <value>Konvertere</value>
+  </data>
+  <data name="ConvertTextBlock.Text" xml:space="preserve">
+    <value>Konvertere</value>
+  </data>
+  <data name="ConvertToNavigationViewItemHeader.Content" xml:space="preserve">
+    <value>Konverter til</value>
+  </data>
+  <data name="ConvertToTextBlock.Text" xml:space="preserve">
+    <value>Konverter til</value>
+  </data>
+  <data name="DarkComboBoxItem.Content" xml:space="preserve">
+    <value>Mørk</value>
+  </data>
+  <data name="DeveloperTextBlock.Text" xml:space="preserve">
+    <value>Udvikler</value>
+  </data>
+  <data name="FileABugOrRequestTextBlock.Text" xml:space="preserve">
+    <value>Indsend en fejl eller anmodning</value>
+  </data>
+  <data name="FileConverterTextBlock.Text" xml:space="preserve">
+    <value>Filkonverter</value>
+  </data>
+  <data name="FileConverterTitleBar.Title" xml:space="preserve">
+    <value>Filkonverter</value>
+  </data>
+  <data name="FinishedDialogCloseButtonText" xml:space="preserve">
+    <value>Okay</value>
+  </data>
+  <data name="FinishedDialogErrorTitle" xml:space="preserve">
+    <value>Fejl ved konvertering af billede</value>
+  </data>
+  <data name="PNGToBMPFinishedDialogTitle" xml:space="preserve">
+    <value>Konverterede '{0}.png' til '{0}.bmp'</value>
+  </data>
+  <data name="HomeNavigationViewItem.Content" xml:space="preserve">
+    <value>Hjem</value>
+  </data>
+  <data name="ImageConversionTextBlock.Text" xml:space="preserve">
+    <value>Billedkonvertering</value>
+  </data>
+  <data name="ImageNavigationViewItem.Content" xml:space="preserve">
+    <value>Billede</value>
+  </data>
+  <data name="ImagePathTextBox.PlaceholderText" xml:space="preserve">
+    <value>Billedsti:</value>
+  </data>
+  <data name="ImageTextBlock.Text" xml:space="preserve">
+    <value>Billede</value>
+  </data>
+  <data name="LeftComboBoxItem.Content" xml:space="preserve">
+    <value>Venstre</value>
+  </data>
+  <data name="LicenceHyperlinkButton.Content" xml:space="preserve">
+    <value>Licens</value>
+  </data>
+  <data name="LightComboBoxItem.Content" xml:space="preserve">
+    <value>Lys</value>
+  </data>
+  <data name="LinksAndSocialsTextBlock.Text" xml:space="preserve">
+    <value>Links og sociale medier</value>
+  </data>
+  <data name="NavigationStyleTextBlock.Text" xml:space="preserve">
+    <value>Navigationsstil</value>
+  </data>
+  <data name="OutputImageFolderTextBox.PlaceholderText" xml:space="preserve">
+    <value>Outputbilledmappe:</value>
+  </data>
+  <data name="PNGConversionTextBlock.Text" xml:space="preserve">
+    <value>PNG-konvertering</value>
+  </data>
+  <data name="PNGToBMPTextBlock.Text" xml:space="preserve">
+    <value>PNG til BMP</value>
+  </data>
+  <data name="PNGToEPSTextBlock.Text" xml:space="preserve">
+    <value>PNG til EPS</value>
+  </data>
+  <data name="PrivacyPolicyHyperlinkButton.Content" xml:space="preserve">
+    <value>Privatlivspolitik</value>
+  </data>
+  <data name="SelectImageButton.Content" xml:space="preserve">
+    <value>Vælg billede</value>
+  </data>
+  <data name="SelectOutputFolderButton.Content" xml:space="preserve">
+    <value>Vælg outputmappe</value>
+  </data>
+  <data name="SelectWhichAppThemeToDisplayTextBlock.Text" xml:space="preserve">
+    <value>Vælg hvilket apptema der skal vises</value>
+  </data>
+  <data name="SettingsTextBlock.Text" xml:space="preserve">
+    <value>Indstillinger</value>
+  </data>
+  <data name="SourceCodeHyperlinkButton.Content" xml:space="preserve">
+    <value>Kildekode</value>
+  </data>
+  <data name="TopComboBoxItem.Content" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="UseSystemSettingComboBoxItem.Content" xml:space="preserve">
+    <value>Brug systemindstilling</value>
+  </data>
+  <data name="WebsiteHyperlinkButton.Content" xml:space="preserve">
+    <value>Hjemmeside</value>
+  </data>
+  <data name="PNGToESPFinishedDialogTitle" xml:space="preserve">
+    <value>Konverterede '{0}.png' til '{0}.eps'</value>
+  </data>
+  <data name="PNGToGIFTextBlock.Text" xml:space="preserve">
+    <value>PNG til GIF</value>
+  </data>
+  <data name="PNGToGIFFinishedDialogTitle" xml:space="preserve">
+    <value>Konverterede '{0}.png' til '{0}.gif'</value>
+  </data>
+  <data name="PNGToICOTextBlock.Text" xml:space="preserve">
+    <value>PNG til ICO</value>
+  </data>
+  <data name="IconSizeTextBlock.Text" xml:space="preserve">
+    <value>Ikonstørrelse</value>
+  </data>
+  <data name="ICOForWindowsComboBoxItem.Content" xml:space="preserve">
+    <value>ICO til Windows</value>
+  </data>
+  <data name="PNGToICOFinishedDialogTitle" xml:space="preserve">
+    <value>Konverterede '{0}.png' til '{0}.ico'</value>
+  </data>
+  <data name="PNGToJPEGTextBlock.Text" xml:space="preserve">
+    <value>PNG til JPEG</value>
+  </data>
+  <data name="OutputQualityTextBlock.Text" xml:space="preserve">
+    <value>Outputkvalitet</value>
+  </data>
+  <data name="PNGToJPEGFinishedDialogTitle" xml:space="preserve">
+    <value>Konverterede '{0}.png' til '{0}.jpeg'</value>
+  </data>
+  <data name="PNGToJPGTextBlock.Text" xml:space="preserve">
+    <value>PNG til JPG</value>
+  </data>
+  <data name="PNGToJPGFinishedDialogTitle" xml:space="preserve">
+    <value>Konverterede '{0}.png' til '{0}.jpg'</value>
+  </data>
+  <data name="StripMetadataCheckBox.Content" xml:space="preserve">
+    <value>Metaadatok csíkozása</value>
+  </data>
+  <data name="PNGToPSDTextBlock.Text" xml:space="preserve">
+    <value>PNG til PSD</value>
+  </data>
+  <data name="PNGToPSDFinishedDialogTitle" xml:space="preserve">
+    <value>Konverterede '{0}.png' til '{0}.psd'</value>
+  </data>
+  <data name="PNGToSVGTextBlock.Text" xml:space="preserve">
+    <value>PNG til SVG</value>
+  </data>
+  <data name="PNGToSVGFinishedDialogTitle" xml:space="preserve">
+    <value>Konverterede '{0}.png' til '{0}.svg'</value>
+  </data>
+  <data name="PNGToTGATextBlock.Text" xml:space="preserve">
+    <value>PNG til TGA</value>
+  </data>
+  <data name="PNGToTGAFinishedDialogTitle" xml:space="preserve">
+    <value>Konverterede '{0}.png' til '{0}.tga'</value>
+  </data>
+  <data name="PNGToTIFFTextBlock.Text" xml:space="preserve">
+    <value>PNG til TIFF</value>
+  </data>
+  <data name="PNGToTIFFFinishedDialogTitle" xml:space="preserve">
+    <value>Konverterede '{0}.png' til '{0}.tiff'</value>
+  </data>
+  <data name="PNGToWebPTextBlock.Text" xml:space="preserve">
+    <value>PNG til WebP</value>
+  </data>
+  <data name="PNGToWebPFinishedDialogTitle" xml:space="preserve">
+    <value>Konverterede '{0}.png' til '{0}.webp'</value>
+  </data>
+</root>

@@ -19,7 +19,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <TitleBar x:Name="TitleBar" Grid.Row="0" Title="File Converter">
+        <TitleBar x:Name="TitleBar" Grid.Row="0" x:Uid="FileConverterTitleBar">
             <TitleBar.LeftHeader>
                 <ImageIcon Height="16" Margin="16, 0, 0, 0" Source="ms-appx:///Images/File Converter Logo.png"/>
             </TitleBar.LeftHeader>
@@ -27,19 +27,25 @@
         
         <NavigationView Grid.Row="1" IsBackButtonVisible="Collapsed" SelectionChanged="NavBarSelectionChanged" x:Name="NavBar">
             <NavigationView.MenuItems>
-                <NavigationViewItem Icon="Home" ToolTipService.ToolTip="Home" Content="Home" Tag="HomePage" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
-                <NavigationViewItemHeader Content="Convert"/>
-                <NavigationViewItem Icon="Pictures" ToolTipService.ToolTip="Image" Content="Image" Tag="ImagePage" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent">
+                <NavigationViewItem Icon="Home" x:Uid="HomeNavigationViewItem" Tag="HomePage" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
+                <NavigationViewItemHeader x:Uid="ConvertNavigationViewItem"/>
+                <NavigationViewItem Icon="Pictures" x:Uid="ImageNavigationViewItem" Tag="ImagePage" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent">
                     <NavigationViewItem.MenuItems>
-                        <NavigationViewItemHeader Content="Convert From"/>
-                        <NavigationViewItem ToolTipService.ToolTip="PNG" Content="PNG" Tag="ConvertPNG" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent">
+                        <NavigationViewItemHeader x:Uid="ConvertFromNavigationViewItemHeader"/>
+                        <NavigationViewItem Content="PNG" Tag="ConvertPNG" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent">
                             <NavigationViewItem.MenuItems>
-                                <NavigationViewItemHeader Content="Convert To"/>
-                                <NavigationViewItem ToolTipService.ToolTip="BMP" Content="BMP" Tag="ConvertPNGToBMP" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
-                                <NavigationViewItem ToolTipService.ToolTip="EPS" Content="EPS" Tag="ConvertPNGToEPS" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
-                                <NavigationViewItem ToolTipService.ToolTip="GIF" Content="GIF" Tag="ConvertPNGToGIF" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
-                                <NavigationViewItem ToolTipService.ToolTip="ICO" Content="ICO" Tag="ConvertPNGToICO" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
-                                <NavigationViewItem ToolTipService.ToolTip="JPEG" Content="JPEG" Tag="ConvertPNGToJPEG" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
+                                <NavigationViewItemHeader x:Uid="ConvertToNavigationViewItemHeader"/>
+                                <NavigationViewItem Content="BMP" Tag="ConvertPNGToBMP" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
+                                <NavigationViewItem Content="EPS" Tag="ConvertPNGToEPS" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
+                                <NavigationViewItem Content="GIF" Tag="ConvertPNGToGIF" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
+                                <NavigationViewItem Content="ICO" Tag="ConvertPNGToICO" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
+                                <NavigationViewItem Content="JPEG" Tag="ConvertPNGToJPEG" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
+                                <NavigationViewItem Content="JPG" Tag="ConvertPNGToJPG" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
+                                <NavigationViewItem Content="PSD" Tag="ConvertPNGToPSD" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
+                                <NavigationViewItem Content="SVG" Tag="ConvertPNGToSVG" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
+                                <NavigationViewItem Content="TGA" Tag="ConvertPNGToTGA" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
+                                <NavigationViewItem Content="TIFF" Tag="ConvertPNGToTIFF" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
+                                <NavigationViewItem Content="WebP" Tag="ConvertPNGToWebP" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
                             </NavigationViewItem.MenuItems>
                         </NavigationViewItem>
                     </NavigationViewItem.MenuItems>

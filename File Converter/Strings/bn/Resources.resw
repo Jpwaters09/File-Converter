@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutTextBlock.Text" xml:space="preserve">
+    <value>সম্পর্কে</value>
+  </data>
+  <data name="AppearanceAndBehaviourTextBlock.Text" xml:space="preserve">
+    <value>চেহারা এবং আচরণ</value>
+  </data>
+  <data name="AppThemeTextBlock.Text" xml:space="preserve">
+    <value>অ্যাপ থিম</value>
+  </data>
+  <data name="ContactMeTextBlock.Text" xml:space="preserve">
+    <value>আমার সাথে যোগাযোগ করুন</value>
+  </data>
+  <data name="ConvertButton.Content" xml:space="preserve">
+    <value>রূপান্তর</value>
+  </data>
+  <data name="ConvertFromNavigationViewItemHeader.Content" xml:space="preserve">
+    <value>থেকে রূপান্তর করুন</value>
+  </data>
+  <data name="ConvertFromTextBlock.Text" xml:space="preserve">
+    <value>থেকে রূপান্তর করুন</value>
+  </data>
+  <data name="ConvertNavigationViewItem.Content" xml:space="preserve">
+    <value>রূপান্তর</value>
+  </data>
+  <data name="ConvertTextBlock.Text" xml:space="preserve">
+    <value>রূপান্তর</value>
+  </data>
+  <data name="ConvertToNavigationViewItemHeader.Content" xml:space="preserve">
+    <value>রূপান্তর করুন</value>
+  </data>
+  <data name="ConvertToTextBlock.Text" xml:space="preserve">
+    <value>রূপান্তর করুন</value>
+  </data>
+  <data name="DarkComboBoxItem.Content" xml:space="preserve">
+    <value>অন্ধকার</value>
+  </data>
+  <data name="DeveloperTextBlock.Text" xml:space="preserve">
+    <value>ডেভেলপার</value>
+  </data>
+  <data name="FileABugOrRequestTextBlock.Text" xml:space="preserve">
+    <value>একটি বাগ বা অনুরোধ দায়ের করুন</value>
+  </data>
+  <data name="FileConverterTextBlock.Text" xml:space="preserve">
+    <value>ফাইল কনভার্টার</value>
+  </data>
+  <data name="FileConverterTitleBar.Title" xml:space="preserve">
+    <value>ফাইল কনভার্টার</value>
+  </data>
+  <data name="FinishedDialogCloseButtonText" xml:space="preserve">
+    <value>আচ্ছা</value>
+  </data>
+  <data name="FinishedDialogErrorTitle" xml:space="preserve">
+    <value>ছবি রূপান্তর করার সময় ত্রুটি</value>
+  </data>
+  <data name="PNGToBMPFinishedDialogTitle" xml:space="preserve">
+    <value>'{0}.png' কে '{0}.bmp' তে রূপান্তরিত করা হয়েছে</value>
+  </data>
+  <data name="HomeNavigationViewItem.Content" xml:space="preserve">
+    <value>হোম</value>
+  </data>
+  <data name="ImageConversionTextBlock.Text" xml:space="preserve">
+    <value>চিত্র রূপান্তর</value>
+  </data>
+  <data name="ImageNavigationViewItem.Content" xml:space="preserve">
+    <value>ভাবমূর্তি</value>
+  </data>
+  <data name="ImagePathTextBox.PlaceholderText" xml:space="preserve">
+    <value>ছবির পথ:</value>
+  </data>
+  <data name="ImageTextBlock.Text" xml:space="preserve">
+    <value>ভাবমূর্তি</value>
+  </data>
+  <data name="LeftComboBoxItem.Content" xml:space="preserve">
+    <value>বাম</value>
+  </data>
+  <data name="LicenceHyperlinkButton.Content" xml:space="preserve">
+    <value>লাইসেন্স</value>
+  </data>
+  <data name="LightComboBoxItem.Content" xml:space="preserve">
+    <value>আলো</value>
+  </data>
+  <data name="LinksAndSocialsTextBlock.Text" xml:space="preserve">
+    <value>লিঙ্ক এবং সোশ্যাল মিডিয়া</value>
+  </data>
+  <data name="NavigationStyleTextBlock.Text" xml:space="preserve">
+    <value>নেভিগেশন স্টাইল</value>
+  </data>
+  <data name="OutputImageFolderTextBox.PlaceholderText" xml:space="preserve">
+    <value>আউটপুট ইমেজ ফোল্ডার:</value>
+  </data>
+  <data name="PNGConversionTextBlock.Text" xml:space="preserve">
+    <value>পিএনজি রূপান্তর</value>
+  </data>
+  <data name="PNGToBMPTextBlock.Text" xml:space="preserve">
+    <value>PNG থেকে BMP</value>
+  </data>
+  <data name="PNGToEPSTextBlock.Text" xml:space="preserve">
+    <value>PNG থেকে EPS</value>
+  </data>
+  <data name="PrivacyPolicyHyperlinkButton.Content" xml:space="preserve">
+    <value>গোপনীয়তা নীতি</value>
+  </data>
+  <data name="SelectImageButton.Content" xml:space="preserve">
+    <value>ছবি নির্বাচন করুন</value>
+  </data>
+  <data name="SelectOutputFolderButton.Content" xml:space="preserve">
+    <value>আউটপুট ফোল্ডার নির্বাচন করুন</value>
+  </data>
+  <data name="SelectWhichAppThemeToDisplayTextBlock.Text" xml:space="preserve">
+    <value>কোন অ্যাপ থিমটি প্রদর্শন করবেন তা নির্বাচন করুন</value>
+  </data>
+  <data name="SettingsTextBlock.Text" xml:space="preserve">
+    <value>সেটিংস</value>
+  </data>
+  <data name="SourceCodeHyperlinkButton.Content" xml:space="preserve">
+    <value>সোর্স কোড</value>
+  </data>
+  <data name="TopComboBoxItem.Content" xml:space="preserve">
+    <value>শীর্ষ</value>
+  </data>
+  <data name="UseSystemSettingComboBoxItem.Content" xml:space="preserve">
+    <value>সিস্টেম সেটিং ব্যবহার করুন</value>
+  </data>
+  <data name="WebsiteHyperlinkButton.Content" xml:space="preserve">
+    <value>ওয়েবসাইট</value>
+  </data>
+  <data name="PNGToESPFinishedDialogTitle" xml:space="preserve">
+    <value>'{0}.png' কে '{0}.eps' তে রূপান্তরিত করা হয়েছে</value>
+  </data>
+  <data name="PNGToGIFTextBlock.Text" xml:space="preserve">
+    <value>PNG থেকে GIF</value>
+  </data>
+  <data name="PNGToGIFFinishedDialogTitle" xml:space="preserve">
+    <value>'{0}.png' কে '{0}.gif' তে রূপান্তরিত করা হয়েছে</value>
+  </data>
+  <data name="PNGToICOTextBlock.Text" xml:space="preserve">
+    <value>PNG থেকে ICO</value>
+  </data>
+  <data name="IconSizeTextBlock.Text" xml:space="preserve">
+    <value>আইকনের আকার</value>
+  </data>
+  <data name="ICOForWindowsComboBoxItem.Content" xml:space="preserve">
+    <value>উইন্ডোজের জন্য ICO</value>
+  </data>
+  <data name="PNGToICOFinishedDialogTitle" xml:space="preserve">
+    <value>'{0}.png' কে '{0}.ico' তে রূপান্তরিত করা হয়েছে</value>
+  </data>
+  <data name="PNGToJPEGTextBlock.Text" xml:space="preserve">
+    <value>PNG থেকে JPEG</value>
+  </data>
+  <data name="OutputQualityTextBlock.Text" xml:space="preserve">
+    <value>আউটপুট কোয়ালিটি</value>
+  </data>
+  <data name="PNGToJPEGFinishedDialogTitle" xml:space="preserve">
+    <value>'{0}.png' কে '{0}.jpeg' তে রূপান্তরিত করা হয়েছে</value>
+  </data>
+  <data name="PNGToJPGTextBlock.Text" xml:space="preserve">
+    <value>PNG থেকে JPG</value>
+  </data>
+  <data name="PNGToJPGFinishedDialogTitle" xml:space="preserve">
+    <value>'{0}.png' কে '{0}.jpg' তে রূপান্তরিত করা হয়েছে</value>
+  </data>
+  <data name="StripMetadataCheckBox.Content" xml:space="preserve">
+    <value>স্ট্রিপ মেটাডেটা</value>
+  </data>
+  <data name="PNGToPSDTextBlock.Text" xml:space="preserve">
+    <value>PNG থেকে PSD</value>
+  </data>
+  <data name="PNGToPSDFinishedDialogTitle" xml:space="preserve">
+    <value>'{0}.png' কে '{0}.psd' তে রূপান্তরিত করা হয়েছে</value>
+  </data>
+  <data name="PNGToSVGTextBlock.Text" xml:space="preserve">
+    <value>PNG থেকে SVG</value>
+  </data>
+  <data name="PNGToSVGFinishedDialogTitle" xml:space="preserve">
+    <value>'{0}.png' কে '{0}.svg' তে রূপান্তরিত করা হয়েছে</value>
+  </data>
+  <data name="PNGToTGATextBlock.Text" xml:space="preserve">
+    <value>PNG থেকে TGA</value>
+  </data>
+  <data name="PNGToTGAFinishedDialogTitle" xml:space="preserve">
+    <value>'{0}.png' কে '{0}.tga' তে রূপান্তরিত করা হয়েছে</value>
+  </data>
+  <data name="PNGToTIFFTextBlock.Text" xml:space="preserve">
+    <value>PNG থেকে TIFF</value>
+  </data>
+  <data name="PNGToTIFFFinishedDialogTitle" xml:space="preserve">
+    <value>'{0}.png' কে '{0}.tiff' তে রূপান্তরিত করা হয়েছে</value>
+  </data>
+  <data name="PNGToWebPTextBlock.Text" xml:space="preserve">
+    <value>PNG থেকে WebP</value>
+  </data>
+  <data name="PNGToWebPFinishedDialogTitle" xml:space="preserve">
+    <value>'{0}.png' কে '{0}.webp' তে রূপান্তরিত করা হয়েছে</value>
+  </data>
+</root>

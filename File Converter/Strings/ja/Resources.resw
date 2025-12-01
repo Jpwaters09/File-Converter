@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutTextBlock.Text" xml:space="preserve">
+    <value>について</value>
+  </data>
+  <data name="AppearanceAndBehaviourTextBlock.Text" xml:space="preserve">
+    <value>外見と行動</value>
+  </data>
+  <data name="AppThemeTextBlock.Text" xml:space="preserve">
+    <value>アプリテーマ</value>
+  </data>
+  <data name="ContactMeTextBlock.Text" xml:space="preserve">
+    <value>お問い合わせ</value>
+  </data>
+  <data name="ConvertButton.Content" xml:space="preserve">
+    <value>変換する</value>
+  </data>
+  <data name="ConvertFromNavigationViewItemHeader.Content" xml:space="preserve">
+    <value>変換元</value>
+  </data>
+  <data name="ConvertFromTextBlock.Text" xml:space="preserve">
+    <value>変換元</value>
+  </data>
+  <data name="ConvertNavigationViewItem.Content" xml:space="preserve">
+    <value>変換する</value>
+  </data>
+  <data name="ConvertTextBlock.Text" xml:space="preserve">
+    <value>変換する</value>
+  </data>
+  <data name="ConvertToNavigationViewItemHeader.Content" xml:space="preserve">
+    <value>変換先</value>
+  </data>
+  <data name="ConvertToTextBlock.Text" xml:space="preserve">
+    <value>変換先</value>
+  </data>
+  <data name="DarkComboBoxItem.Content" xml:space="preserve">
+    <value>暗い</value>
+  </data>
+  <data name="DeveloperTextBlock.Text" xml:space="preserve">
+    <value>開発者</value>
+  </data>
+  <data name="FileABugOrRequestTextBlock.Text" xml:space="preserve">
+    <value>バグやリクエストを報告する</value>
+  </data>
+  <data name="FileConverterTextBlock.Text" xml:space="preserve">
+    <value>ファイルコンバータ</value>
+  </data>
+  <data name="FileConverterTitleBar.Title" xml:space="preserve">
+    <value>ファイルコンバータ</value>
+  </data>
+  <data name="FinishedDialogCloseButtonText" xml:space="preserve">
+    <value>オーケー</value>
+  </data>
+  <data name="FinishedDialogErrorTitle" xml:space="preserve">
+    <value>画像の変換エラー</value>
+  </data>
+  <data name="PNGToBMPFinishedDialogTitle" xml:space="preserve">
+    <value>'{0}.png' を '{0}.bmp' に変換しました</value>
+  </data>
+  <data name="HomeNavigationViewItem.Content" xml:space="preserve">
+    <value>家</value>
+  </data>
+  <data name="ImageConversionTextBlock.Text" xml:space="preserve">
+    <value>画像変換</value>
+  </data>
+  <data name="ImageNavigationViewItem.Content" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="ImagePathTextBox.PlaceholderText" xml:space="preserve">
+    <value>画像パス:</value>
+  </data>
+  <data name="ImageTextBlock.Text" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="LeftComboBoxItem.Content" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="LicenceHyperlinkButton.Content" xml:space="preserve">
+    <value>ライセンス</value>
+  </data>
+  <data name="LightComboBoxItem.Content" xml:space="preserve">
+    <value>ライト</value>
+  </data>
+  <data name="LinksAndSocialsTextBlock.Text" xml:space="preserve">
+    <value>リンクとソーシャルメディア</value>
+  </data>
+  <data name="NavigationStyleTextBlock.Text" xml:space="preserve">
+    <value>ナビゲーションスタイル</value>
+  </data>
+  <data name="OutputImageFolderTextBox.PlaceholderText" xml:space="preserve">
+    <value>出力画像フォルダ:</value>
+  </data>
+  <data name="PNGConversionTextBlock.Text" xml:space="preserve">
+    <value>PNG変換</value>
+  </data>
+  <data name="PNGToBMPTextBlock.Text" xml:space="preserve">
+    <value>PNGからBMPへ</value>
+  </data>
+  <data name="PNGToEPSTextBlock.Text" xml:space="preserve">
+    <value>PNGからEPSへ</value>
+  </data>
+  <data name="PrivacyPolicyHyperlinkButton.Content" xml:space="preserve">
+    <value>プライバシーポリシー</value>
+  </data>
+  <data name="SelectImageButton.Content" xml:space="preserve">
+    <value>画像を選択</value>
+  </data>
+  <data name="SelectOutputFolderButton.Content" xml:space="preserve">
+    <value>出力フォルダを選択</value>
+  </data>
+  <data name="SelectWhichAppThemeToDisplayTextBlock.Text" xml:space="preserve">
+    <value>表示するアプリのテーマを選択する</value>
+  </data>
+  <data name="SettingsTextBlock.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="SourceCodeHyperlinkButton.Content" xml:space="preserve">
+    <value>ソースコード</value>
+  </data>
+  <data name="TopComboBoxItem.Content" xml:space="preserve">
+    <value>トップ</value>
+  </data>
+  <data name="UseSystemSettingComboBoxItem.Content" xml:space="preserve">
+    <value>システム設定を使用する</value>
+  </data>
+  <data name="WebsiteHyperlinkButton.Content" xml:space="preserve">
+    <value>Webサイト</value>
+  </data>
+  <data name="PNGToESPFinishedDialogTitle" xml:space="preserve">
+    <value>'{0}.png' を '{0}.eps' に変換しました</value>
+  </data>
+  <data name="PNGToGIFTextBlock.Text" xml:space="preserve">
+    <value>PNGからGIFへ</value>
+  </data>
+  <data name="PNGToGIFFinishedDialogTitle" xml:space="preserve">
+    <value>'{0}.png' を '{0}.gif' に変換しました</value>
+  </data>
+  <data name="PNGToICOTextBlock.Text" xml:space="preserve">
+    <value>PNGからICOへ</value>
+  </data>
+  <data name="IconSizeTextBlock.Text" xml:space="preserve">
+    <value>アイコンサイズ</value>
+  </data>
+  <data name="ICOForWindowsComboBoxItem.Content" xml:space="preserve">
+    <value>Windows用ICO</value>
+  </data>
+  <data name="PNGToICOFinishedDialogTitle" xml:space="preserve">
+    <value>'{0}.png' を '{0}.ico' に変換しました</value>
+  </data>
+  <data name="PNGToJPEGTextBlock.Text" xml:space="preserve">
+    <value>PNGからJPEGへ</value>
+  </data>
+  <data name="OutputQualityTextBlock.Text" xml:space="preserve">
+    <value>出力品質</value>
+  </data>
+  <data name="PNGToJPEGFinishedDialogTitle" xml:space="preserve">
+    <value>'{0}.png' を '{0}.jpeg' に変換しました</value>
+  </data>
+  <data name="PNGToJPGTextBlock.Text" xml:space="preserve">
+    <value>PNGからJPGへ</value>
+  </data>
+  <data name="PNGToJPGFinishedDialogTitle" xml:space="preserve">
+    <value>'{0}.png' を '{0}.jpg' に変換しました</value>
+  </data>
+  <data name="StripMetadataCheckBox.Content" xml:space="preserve">
+    <value>メタデータの削除</value>
+  </data>
+  <data name="PNGToPSDTextBlock.Text" xml:space="preserve">
+    <value>PNGからPSDへ</value>
+  </data>
+  <data name="PNGToPSDFinishedDialogTitle" xml:space="preserve">
+    <value>'{0}.png' を '{0}.psd' に変換しました</value>
+  </data>
+  <data name="PNGToSVGTextBlock.Text" xml:space="preserve">
+    <value>PNGからSVGへ</value>
+  </data>
+  <data name="PNGToSVGFinishedDialogTitle" xml:space="preserve">
+    <value>'{0}.png' を '{0}.svg' に変換しました</value>
+  </data>
+  <data name="PNGToTGATextBlock.Text" xml:space="preserve">
+    <value>PNGからTGAへ</value>
+  </data>
+  <data name="PNGToTGAFinishedDialogTitle" xml:space="preserve">
+    <value>'{0}.png' を '{0}.tga' に変換しました</value>
+  </data>
+  <data name="PNGToTIFFTextBlock.Text" xml:space="preserve">
+    <value>PNGからTIFFへ</value>
+  </data>
+  <data name="PNGToTIFFFinishedDialogTitle" xml:space="preserve">
+    <value>'{0}.png' を '{0}.tiff' に変換しました</value>
+  </data>
+  <data name="PNGToWebPTextBlock.Text" xml:space="preserve">
+    <value>PNGからWebPへ</value>
+  </data>
+  <data name="PNGToWebPFinishedDialogTitle" xml:space="preserve">
+    <value>'{0}.png' を '{0}.webp' に変換しました</value>
+  </data>
+</root>
