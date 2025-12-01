@@ -27,56 +27,50 @@
 ##
 
 </div>
-<p><b>Supported File Conversions:</b></p>
 
-<ul>
-    <li><p>PNG To:</p>
-    <ul>
-        <li>BMP</li>
-        <li>EPS</li>
-        <li>GIF</li>
-        <li>ICO</li>
-        <li>JPEG</li>
-        <li>JPG</li>
-        <li>PSD</li>
-        <li>SVG</li>
-        <li>TGA</li>
-        <li>TIFF</li>
-        <li>WebP</li>
-    </ul>
-    </li>
-</ul>
+**Supported File Conversions:**
+
+ - PNG To BMP
+ - PNG To EPS
+ - PNG To GIF
+ - PNG To ICO
+ - PNG To JPEG
+ - PNG To JPG
+ - PNG To PSD
+ - PNG To SVG
+ - PNG To TGA
+ - PNG To TIFF
+ - PNG To WebP
 
 ##
 
-<p><b>Supported Languages:</b></p>
+**Supported Languages:**
 
-<p>Some translations may be inaccurate.</p>
+Some translations may be inaccurate.
 
-<ul>
-  <li>Afrikaans</li>
-  <li>Arabic</li>
-  <li>Bengla</li>
-  <li>Danish</li>
-  <li>German</li>
-  <li>English (Australia)</li>
-  <li>English (Canada)</li>
-  <li>English (United Kingdom)</li>
-  <li>English (United States)</li>
-  <li>Spanish</li>
-  <li>Filipino</li>
-  <li>French</li>
-  <li>Hindi</li>
-  <li>Italian</li>
-  <li>Japanese</li>
-  <li>Nepali</li>
-  <li>Dutch</li>
-  <li>Russian</li>
-  <li>Turkish</li>
-  <li>Ukrainian</li>
-  <li>Vietnamese</li>
-  <li>Chinese (Simplified)</li>
-  <li>Chinese (Traditional)</li>
+ - Afrikaans
+ - Arabic
+ - Bengali
+ - Danish
+ - German
+ - English (Australia)
+ - English (Canada)
+ - English (United Kingdom)
+ - English (United States)
+ - Spanish
+ - Filipino
+ - French
+ - Hindi
+ - Italian
+ - Japanese
+ - Nepali
+ - Dutch
+ - Russian
+ - Turkish
+ - Ukrainian
+ - Vietnamese
+ - Chinese (Simplified)
+ - Chinese (Traditional)
 
 ##
 
