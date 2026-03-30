@@ -14,11 +14,11 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <TextBlock x:Uid="SettingsTextBlock" Margin="36, 40, 0, 36" Style="{ThemeResource TitleTextBlockStyle}"/>
+        <TextBlock x:Uid="SettingsTitleText" Grid.Row="0" Margin="36, 40, 0, 36" Style="{ThemeResource TitleTextBlockStyle}"/>
 
         <ScrollViewer Grid.Row="1" Padding="36, 0, 36, 0" IsTabStop="False" VerticalScrollBarVisibility="Auto" VerticalScrollMode="Auto" UseSystemFocusVisuals="False">
             <StackPanel Spacing="4">
-                <TextBlock x:Uid="AppearanceAndBehaviourTextBlock" Margin="0, 0, 0, 12" Style="{ThemeResource BodyStrongTextBlockStyle}"/>
+                <TextBlock x:Uid="AppearanceTextBlock" Margin="0, 0, 0, 12" Style="{ThemeResource BodyStrongTextBlockStyle}"/>
 
                 <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="4" Padding="16" BorderThickness="1" BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}">
                     <Grid>
@@ -34,35 +34,13 @@
 
                         <StackPanel VerticalAlignment="Center" Orientation="Vertical" Grid.Column="1">
                             <TextBlock x:Uid="AppThemeTextBlock"/>
-                            <TextBlock x:Uid="SelectWhichAppThemeToDisplayTextBlock" Style="{ThemeResource CaptionTextBlockStyle}" Foreground="{ThemeResource SystemControlForegroundBaseMediumHighBrush}"/>
+                            <TextBlock x:Uid="SelectAppThemeTextBlock" Style="{ThemeResource CaptionTextBlockStyle}" Foreground="{ThemeResource SystemControlForegroundBaseMediumHighBrush}"/>
                         </StackPanel>
 
                         <ComboBox Width="165" HorizontalAlignment="Right" VerticalAlignment="Center" x:Name="ThemeSelector" SelectionChanged="ChangeTheme" Grid.Column="2">
-                            <ComboBoxItem x:Uid="UseSystemSettingComboBoxItem" Tag="Default"/>
-                            <ComboBoxItem x:Uid="LightComboBoxItem" Tag="Light"/>
-                            <ComboBoxItem x:Uid="DarkComboBoxItem" Tag="Dark"/>
-                        </ComboBox>
-                    </Grid>
-                </Border>
-
-                <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="4" Padding="16" BorderThickness="1" BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}">
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto"/>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="Auto"/>
-                        </Grid.ColumnDefinitions>
-
-                        <StackPanel Orientation="Horizontal"  VerticalAlignment="Center" Grid.Column="0">
-                            <FontIcon Glyph="&#xF594;" Margin="0, 0, 20, 0"/>
-
-                            <TextBlock Grid.Column="1" x:Uid="NavigationStyleTextBlock"/>
-                        </StackPanel>
-                        
-
-                        <ComboBox Width="100" HorizontalAlignment="Right" VerticalAlignment="Center" x:Name="NavViewPosition" SelectionChanged="ChangeNavViewPosition" Grid.Column="2">
-                            <ComboBoxItem x:Uid="LeftComboBoxItem" Tag="Left"/>
-                            <ComboBoxItem x:Uid="TopComboBoxItem" Tag="Top"/>
+                            <ComboBoxItem x:Uid="SystemSettingComboBoxItem" Tag="Default"/>
+                            <ComboBoxItem x:Uid="LightSettingComboBoxItem" Tag="Light"/>
+                            <ComboBoxItem x:Uid="DarkSettingComboBoxItem" Tag="Dark"/>
                         </ComboBox>
                     </Grid>
                 </Border>
@@ -83,8 +61,8 @@
                             </StackPanel>
 
                             <StackPanel VerticalAlignment="Center" Orientation="Vertical" Grid.Column="1">
-                                <TextBlock x:Uid="FileConverterTextBlock"/>
-                                <TextBlock Text="© 2025 Jacob Waters." Style="{ThemeResource CaptionTextBlockStyle}" Foreground="{ThemeResource SystemControlForegroundBaseMediumHighBrush}"/>
+                                <TextBlock x:Uid="AppTitle"/>
+                                <TextBlock x:Uid="CopyrightTextBlock" Style="{ThemeResource CaptionTextBlockStyle}" Foreground="{ThemeResource SystemControlForegroundBaseMediumHighBrush}"/>
                             </StackPanel>
 
                             <TextBlock x:Name="VersionText" Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Center" Style="{ThemeResource BodyTextBlockStyle}" Foreground="{ThemeResource SystemControlForegroundBaseMediumHighBrush}"/>
@@ -105,7 +83,7 @@
                                     </StackPanel>
 
                                     <StackPanel VerticalAlignment="Center" Orientation="Vertical" Grid.Column="1">
-                                        <TextBlock Text="Jacob Waters" Style="{ThemeResource BodyTextBlockStyle}" Foreground="{ThemeResource SystemControlForegroundBaseMediumHighBrush}"/>
+                                        <TextBlock x:Uid="NameTextBlock" Style="{ThemeResource BodyTextBlockStyle}" Foreground="{ThemeResource SystemControlForegroundBaseMediumHighBrush}"/>
                                     </StackPanel>
                                 </Grid>
                             </Border>
@@ -118,7 +96,7 @@
                                     </Grid.ColumnDefinitions>
 
                                     <StackPanel VerticalAlignment="Center" Orientation="Vertical" Grid.Column="0">
-                                        <TextBlock x:Uid="FileABugOrRequestTextBlock"/>
+                                        <TextBlock x:Uid="BugRequestTextBlock"/>
                                     </StackPanel>
 
                                     <StackPanel VerticalAlignment="Center" Orientation="Vertical" Grid.Column="1">
@@ -135,7 +113,7 @@
                                     </Grid.ColumnDefinitions>
 
                                     <StackPanel VerticalAlignment="Center" Orientation="Vertical" Grid.Column="0">
-                                        <TextBlock x:Uid="ContactMeTextBlock"/>
+                                        <TextBlock x:Uid="ContactTextBlock"/>
                                     </StackPanel>
 
                                     <StackPanel VerticalAlignment="Center" Orientation="Vertical" Grid.Column="1">
@@ -155,15 +133,14 @@
                                         </StackPanel>
 
                                         <StackPanel Margin="-12, 0, 0, 0" VerticalAlignment="Center" Orientation="Vertical">
-                                            <HyperlinkButton x:Uid="WebsiteHyperlinkButton" NavigateUri="https://Jpwaters09.github.io"/>
-                                            <HyperlinkButton x:Uid="LicenceHyperlinkButton" NavigateUri="https://github.com/Jpwaters09/File-Converter/blob/main/LICENSE"/>
-                                            <HyperlinkButton x:Uid="PrivacyPolicyHyperlinkButton" NavigateUri="https://github.com/Jpwaters09/File-Converter/blob/main/Privacy%20Policy.md"/>
-                                            <HyperlinkButton x:Uid="SourceCodeHyperlinkButton" NavigateUri="https://github.com/Jpwaters09/File-Converter"/>
+                                            <HyperlinkButton x:Uid="WebsiteText" NavigateUri="https://Jpwaters09.github.io"/>
+                                            <HyperlinkButton x:Uid="LicenceText" NavigateUri="https://github.com/Jpwaters09/File-Converter/blob/main/LICENSE"/>
+                                            <HyperlinkButton x:Uid="PrivacyPolicyText" NavigateUri="https://github.com/Jpwaters09/File-Converter/blob/main/Privacy%20Policy.md"/>
+                                            <HyperlinkButton x:Uid="SourceCodeText" NavigateUri="https://github.com/Jpwaters09/File-Converter"/>
                                             <HyperlinkButton Content="GitHub" NavigateUri="https://github.com/Jpwaters09"/>
                                             <HyperlinkButton Content="LinkedIn" NavigateUri="https://linkedin.com/in/Jpwaters09"/>
                                             <HyperlinkButton Content="X" NavigateUri="https://x.com/Jpwaters09"/>
                                             <HyperlinkButton Content="Patreon" NavigateUri="https://patreon.com/Jpwaters09"/>
-                                            <HyperlinkButton Content="PayPal" NavigateUri="https://paypal.me/JacobW120"/>
                                         </StackPanel>
                                     </StackPanel>
                                 </Grid>

@@ -117,199 +117,175 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AboutTextBlock.Text" xml:space="preserve">
-    <value>عن</value>
+  <data name="AppTitle.Text" xml:space="preserve">
+    <value>محول الملفات</value>
   </data>
-  <data name="AppearanceAndBehaviourTextBlock.Text" xml:space="preserve">
-    <value>المظهر والسلوك</value>
+  <data name="ConvertFromComboBox.Header" xml:space="preserve">
+    <value>التحويل من</value>
   </data>
-  <data name="AppThemeTextBlock.Text" xml:space="preserve">
-    <value>موضوع التطبيق</value>
+  <data name="ConvertFromComboBox.PlaceholderText" xml:space="preserve">
+    <value>حدد تنسيق ملف المصدر</value>
   </data>
-  <data name="ContactMeTextBlock.Text" xml:space="preserve">
-    <value>اتصل بي</value>
+  <data name="ConvertFromItemPlaceholder.Content" xml:space="preserve">
+    <value>حدد تنسيق ملف المصدر</value>
+  </data>
+  <data name="ConvertToComboBox.Header" xml:space="preserve">
+    <value>التحويل إلى</value>
+  </data>
+  <data name="ConvertToComboBox.PlaceholderText" xml:space="preserve">
+    <value>اختر تنسيق ملف الإخراج</value>
+  </data>
+  <data name="ConvertToItemPlaceholder.Content" xml:space="preserve">
+    <value>اختر تنسيق ملف الإخراج</value>
+  </data>
+  <data name="FileLocationsTextBlock.Text" xml:space="preserve">
+    <value>مواقع الملفات</value>
+  </data>
+  <data name="FileTypeComboBox.Header" xml:space="preserve">
+    <value>نوع الملف</value>
+  </data>
+  <data name="FileTypeComboBox.PlaceholderText" xml:space="preserve">
+    <value>حدد نوع الملف</value>
+  </data>
+  <data name="FileTypeItemImage.Content" xml:space="preserve">
+    <value>صورة</value>
+  </data>
+  <data name="FileTypeItemPlaceholder.Content" xml:space="preserve">
+    <value>حدد نوع الملف</value>
+  </data>
+  <data name="HomeNavViewItem.Content" xml:space="preserve">
+    <value>بيت</value>
+  </data>
+  <data name="HomeNavViewItem.ToolTipService.ToolTip" xml:space="preserve">
+    <value>بيت</value>
+  </data>
+  <data name="OutputFolderPathBox.PlaceholderText" xml:space="preserve">
+    <value>حدد مجلد ملف الإخراج</value>
+  </data>
+  <data name="SourceFilePathBox.PlaceholderText" xml:space="preserve">
+    <value>حدد مسار ملف المصدر</value>
+  </data>
+  <data name="FileSelectorButton.Content" xml:space="preserve">
+    <value>يختار</value>
+  </data>
+  <data name="TitleBar.Title" xml:space="preserve">
+    <value>محول الملفات</value>
+  </data>
+  <data name="OutputSettingsTextBlock.Text" xml:space="preserve">
+    <value>إعدادات الإخراج</value>
+  </data>
+  <data name="OutputQualityTextBlock.Text" xml:space="preserve">
+    <value>جودة المخرجات</value>
+  </data>
+  <data name="IconSizeTitle.Text" xml:space="preserve">
+    <value>حجم الأيقونة</value>
+  </data>
+  <data name="IconSizeItem.Content" xml:space="preserve">
+    <value>ICO لنظام التشغيل Windows</value>
+  </data>
+  <data name="StripMetadataCheckBox.Content" xml:space="preserve">
+    <value>إزالة البيانات الوصفية</value>
   </data>
   <data name="ConvertButton.Content" xml:space="preserve">
     <value>يتحول</value>
   </data>
-  <data name="ConvertFromNavigationViewItemHeader.Content" xml:space="preserve">
-    <value>تحويل من</value>
+  <data name="SettingsTitleText.Text" xml:space="preserve">
+    <value>إعدادات</value>
   </data>
-  <data name="ConvertFromTextBlock.Text" xml:space="preserve">
-    <value>تحويل من</value>
+  <data name="AppearanceTextBlock.Text" xml:space="preserve">
+    <value>مظهر</value>
   </data>
-  <data name="ConvertNavigationViewItem.Content" xml:space="preserve">
-    <value>يتحول</value>
+  <data name="AppThemeTextBlock.Text" xml:space="preserve">
+    <value>سمة التطبيق</value>
   </data>
-  <data name="ConvertTextBlock.Text" xml:space="preserve">
-    <value>يتحول</value>
+  <data name="SelectAppThemeTextBlock.Text" xml:space="preserve">
+    <value>اختر سمة التطبيق التي تريد عرضها</value>
   </data>
-  <data name="ConvertToNavigationViewItemHeader.Content" xml:space="preserve">
-    <value>تحويل إلى</value>
+  <data name="SystemSettingComboBoxItem.Content" xml:space="preserve">
+    <value>استخدم إعدادات النظام</value>
   </data>
-  <data name="ConvertToTextBlock.Text" xml:space="preserve">
-    <value>تحويل إلى</value>
+  <data name="LightSettingComboBoxItem.Content" xml:space="preserve">
+    <value>ضوء</value>
   </data>
-  <data name="DarkComboBoxItem.Content" xml:space="preserve">
+  <data name="DarkSettingComboBoxItem.Content" xml:space="preserve">
     <value>مظلم</value>
   </data>
+  <data name="AboutTextBlock.Text" xml:space="preserve">
+    <value>عن</value>
+  </data>
+  <data name="CopyrightTextBlock.Text" xml:space="preserve">
+    <value>© 2026 جاكوب ووترز. جميع الحقوق محفوظة.</value>
+  </data>
   <data name="DeveloperTextBlock.Text" xml:space="preserve">
-    <value>المطور</value>
+    <value>مطور</value>
   </data>
-  <data name="FileABugOrRequestTextBlock.Text" xml:space="preserve">
-    <value>الإبلاغ عن خطأ أو طلب</value>
+  <data name="NameTextBlock.Text" xml:space="preserve">
+    <value>جاكوب ووترز</value>
   </data>
-  <data name="FileConverterTextBlock.Text" xml:space="preserve">
-    <value>محول الملفات</value>
+  <data name="BugRequestTextBlock.Text" xml:space="preserve">
+    <value>أبلغ عن مشكلة أو طلب</value>
   </data>
-  <data name="FileConverterTitleBar.Title" xml:space="preserve">
-    <value>محول الملفات</value>
+  <data name="ContactTextBlock.Text" xml:space="preserve">
+    <value>تواصل معي</value>
+  </data>
+  <data name="LinksAndSocialsTextBlock.Text" xml:space="preserve">
+    <value>الروابط ووسائل التواصل الاجتماعي</value>
+  </data>
+  <data name="WebsiteText.Content" xml:space="preserve">
+    <value>موقع إلكتروني</value>
+  </data>
+  <data name="LicenceText.Content" xml:space="preserve">
+    <value>رخصة</value>
+  </data>
+  <data name="PrivacyPolicyText.Content" xml:space="preserve">
+    <value>سياسة الخصوصية</value>
+  </data>
+  <data name="SourceCodeText.Content" xml:space="preserve">
+    <value>شفرة المصدر</value>
+  </data>
+  <data name="FirstLaunchDialogTitle" xml:space="preserve">
+    <value>مرحباً بك في محول الملفات</value>
+  </data>
+  <data name="FirstLaunchDialogContent" xml:space="preserve">
+    <value>شكراً لشرائك برنامج تحويل الملفات. يُرجى متابعتي للحصول على التحديثات والمعاينات والمزيد.</value>
+  </data>
+  <data name="FirstLaunchDialogPrimaryButtonText" xml:space="preserve">
+    <value>تابع وادعم</value>
+  </data>
+  <data name="FirstLaunchDialogSecondaryButtonText" xml:space="preserve">
+    <value>تواصل معي</value>
+  </data>
+  <data name="FirstLaunchDialogCloseButtonText" xml:space="preserve">
+    <value>ابدأ الآن</value>
+  </data>
+  <data name="RatingDialogTitle" xml:space="preserve">
+    <value>هل تستمتع باستخدام هذا التطبيق؟</value>
+  </data>
+  <data name="RatingDialogContent" xml:space="preserve">
+    <value>تساعدنا ملاحظاتكم في تحسين هذا التطبيق. هل ترغبون بتقييمه أو مشاركة أفكاركم؟</value>
+  </data>
+  <data name="RatingDialogPrimaryButtonText" xml:space="preserve">
+    <value>قيّم التطبيق</value>
+  </data>
+  <data name="RatingDialogSecondaryButtonText" xml:space="preserve">
+    <value>الإبلاغ عن مشكلة</value>
+  </data>
+  <data name="RatingDialogCloseButtonText" xml:space="preserve">
+    <value>لاحقاً</value>
+  </data>
+  <data name="FinishedDialogTitle" xml:space="preserve">
+    <value>تم تحويل الملف '{0}{1}' إلى الملف '{0}.{2}'</value>
   </data>
   <data name="FinishedDialogCloseButtonText" xml:space="preserve">
     <value>نعم</value>
   </data>
-  <data name="FinishedDialogErrorTitle" xml:space="preserve">
+  <data name="ErrorDialogTitle" xml:space="preserve">
     <value>خطأ في تحويل الصورة</value>
   </data>
-  <data name="PNGToBMPFinishedDialogTitle" xml:space="preserve">
-    <value>تم تحويل '{0}.png' إلى '{0}.bmp'</value>
+  <data name="ErrorDialogPrimaryButtonText" xml:space="preserve">
+    <value>خطأ في النسخ</value>
   </data>
-  <data name="HomeNavigationViewItem.Content" xml:space="preserve">
-    <value>بيت</value>
-  </data>
-  <data name="ImageConversionTextBlock.Text" xml:space="preserve">
-    <value>تحويل الصور</value>
-  </data>
-  <data name="ImageNavigationViewItem.Content" xml:space="preserve">
-    <value>صورة</value>
-  </data>
-  <data name="ImagePathTextBox.PlaceholderText" xml:space="preserve">
-    <value>مسار الصورة:</value>
-  </data>
-  <data name="ImageTextBlock.Text" xml:space="preserve">
-    <value>صورة</value>
-  </data>
-  <data name="LeftComboBoxItem.Content" xml:space="preserve">
-    <value>غادر</value>
-  </data>
-  <data name="LicenceHyperlinkButton.Content" xml:space="preserve">
-    <value>رخصة</value>
-  </data>
-  <data name="LightComboBoxItem.Content" xml:space="preserve">
-    <value>ضوء</value>
-  </data>
-  <data name="LinksAndSocialsTextBlock.Text" xml:space="preserve">
-    <value>الروابط والوسائط الاجتماعية</value>
-  </data>
-  <data name="NavigationStyleTextBlock.Text" xml:space="preserve">
-    <value>أسلوب التنقل</value>
-  </data>
-  <data name="OutputImageFolderTextBox.PlaceholderText" xml:space="preserve">
-    <value>مجلد الصورة الناتجة:</value>
-  </data>
-  <data name="PNGConversionTextBlock.Text" xml:space="preserve">
-    <value>تحويل PNG</value>
-  </data>
-  <data name="PNGToBMPTextBlock.Text" xml:space="preserve">
-    <value>PNG إلى BMP</value>
-  </data>
-  <data name="PNGToEPSTextBlock.Text" xml:space="preserve">
-    <value>PNG إلى EPS</value>
-  </data>
-  <data name="PrivacyPolicyHyperlinkButton.Content" xml:space="preserve">
-    <value>سياسة الخصوصية</value>
-  </data>
-  <data name="SelectImageButton.Content" xml:space="preserve">
-    <value>حدد الصورة</value>
-  </data>
-  <data name="SelectOutputFolderButton.Content" xml:space="preserve">
-    <value>حدد مجلد الإخراج</value>
-  </data>
-  <data name="SelectWhichAppThemeToDisplayTextBlock.Text" xml:space="preserve">
-    <value>حدد موضوع التطبيق الذي تريد عرضه</value>
-  </data>
-  <data name="SettingsTextBlock.Text" xml:space="preserve">
-    <value>إعدادات</value>
-  </data>
-  <data name="SourceCodeHyperlinkButton.Content" xml:space="preserve">
-    <value>الكود المصدر</value>
-  </data>
-  <data name="TopComboBoxItem.Content" xml:space="preserve">
-    <value>قمة</value>
-  </data>
-  <data name="UseSystemSettingComboBoxItem.Content" xml:space="preserve">
-    <value>استخدم إعدادات النظام</value>
-  </data>
-  <data name="WebsiteHyperlinkButton.Content" xml:space="preserve">
-    <value>موقع إلكتروني</value>
-  </data>
-  <data name="PNGToESPFinishedDialogTitle" xml:space="preserve">
-    <value>تم تحويل '{0}.png' إلى '{0}.eps'</value>
-  </data>
-  <data name="PNGToGIFTextBlock.Text" xml:space="preserve">
-    <value>PNG إلى GIF</value>
-  </data>
-  <data name="PNGToGIFFinishedDialogTitle" xml:space="preserve">
-    <value>تم تحويل '{0}.png' إلى '{0}.gif'</value>
-  </data>
-  <data name="PNGToICOTextBlock.Text" xml:space="preserve">
-    <value>PNG إلى ICO</value>
-  </data>
-  <data name="IconSizeTextBlock.Text" xml:space="preserve">
-    <value>حجم الأيقونة</value>
-  </data>
-  <data name="ICOForWindowsComboBoxItem.Content" xml:space="preserve">
-    <value>ICO لنظام Windows</value>
-  </data>
-  <data name="PNGToICOFinishedDialogTitle" xml:space="preserve">
-    <value>تم تحويل '{0}.png' إلى '{0}.ico'</value>
-  </data>
-  <data name="PNGToJPEGTextBlock.Text" xml:space="preserve">
-    <value>PNG إلى JPEG</value>
-  </data>
-  <data name="OutputQualityTextBlock.Text" xml:space="preserve">
-    <value>جودة الإخراج</value>
-  </data>
-  <data name="PNGToJPEGFinishedDialogTitle" xml:space="preserve">
-    <value>تم تحويل '{0}.png' إلى '{0}.jpeg'</value>
-  </data>
-  <data name="PNGToJPGTextBlock.Text" xml:space="preserve">
-    <value>PNG إلى JPG</value>
-  </data>
-  <data name="PNGToJPGFinishedDialogTitle" xml:space="preserve">
-    <value>تم تحويل '{0}.png' إلى '{0}.jpg'</value>
-  </data>
-  <data name="StripMetadataCheckBox.Content" xml:space="preserve">
-    <value>شريط البيانات الوصفية</value>
-  </data>
-  <data name="PNGToPSDTextBlock.Text" xml:space="preserve">
-    <value>PNG إلى PSD</value>
-  </data>
-  <data name="PNGToPSDFinishedDialogTitle" xml:space="preserve">
-    <value>تم تحويل '{0}.png' إلى '{0}.psd'</value>
-  </data>
-  <data name="PNGToSVGTextBlock.Text" xml:space="preserve">
-    <value>PNG إلى SVG</value>
-  </data>
-  <data name="PNGToSVGFinishedDialogTitle" xml:space="preserve">
-    <value>تم تحويل '{0}.png' إلى '{0}.svg'</value>
-  </data>
-  <data name="PNGToTGATextBlock.Text" xml:space="preserve">
-    <value>PNG إلى TGA</value>
-  </data>
-  <data name="PNGToTGAFinishedDialogTitle" xml:space="preserve">
-    <value>تم تحويل '{0}.png' إلى '{0}.tga'</value>
-  </data>
-  <data name="PNGToTIFFTextBlock.Text" xml:space="preserve">
-    <value>PNG إلى TIFF</value>
-  </data>
-  <data name="PNGToTIFFFinishedDialogTitle" xml:space="preserve">
-    <value>تم تحويل '{0}.png' إلى '{0}.tiff'</value>
-  </data>
-  <data name="PNGToWebPTextBlock.Text" xml:space="preserve">
-    <value>PNG إلى WebP</value>
-  </data>
-  <data name="PNGToWebPFinishedDialogTitle" xml:space="preserve">
-    <value>تم تحويل '{0}.png' إلى '{0}.webp'</value>
+  <data name="ErrorDialogCloseButtonText" xml:space="preserve">
+    <value>نعم</value>
   </data>
 </root>

@@ -19,38 +19,15 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <TitleBar x:Name="TitleBar" Grid.Row="0" x:Uid="FileConverterTitleBar">
+        <TitleBar x:Name="TitleBar" x:Uid="TitleBar" Grid.Row="0">
             <TitleBar.LeftHeader>
                 <ImageIcon Height="16" Margin="16, 0, 0, 0" Source="ms-appx:///Images/File Converter Logo.png"/>
             </TitleBar.LeftHeader>
         </TitleBar>
-        
-        <NavigationView Grid.Row="1" IsBackButtonVisible="Collapsed" SelectionChanged="NavBarSelectionChanged" x:Name="NavBar">
-            <NavigationView.MenuItems>
-                <NavigationViewItem Icon="Home" x:Uid="HomeNavigationViewItem" Tag="HomePage" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
-                <NavigationViewItemHeader x:Uid="ConvertNavigationViewItem"/>
-                <NavigationViewItem Icon="Pictures" x:Uid="ImageNavigationViewItem" Tag="ImagePage" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent">
-                    <NavigationViewItem.MenuItems>
-                        <NavigationViewItemHeader x:Uid="ConvertFromNavigationViewItemHeader"/>
-                        <NavigationViewItem Content="PNG" Tag="ConvertPNG" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent">
-                            <NavigationViewItem.MenuItems>
-                                <NavigationViewItemHeader x:Uid="ConvertToNavigationViewItemHeader"/>
-                                <NavigationViewItem Content="BMP" Tag="ConvertPNGToBMP" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
-                                <NavigationViewItem Content="EPS" Tag="ConvertPNGToEPS" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
-                                <NavigationViewItem Content="GIF" Tag="ConvertPNGToGIF" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
-                                <NavigationViewItem Content="ICO" Tag="ConvertPNGToICO" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
-                                <NavigationViewItem Content="JPEG" Tag="ConvertPNGToJPEG" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
-                                <NavigationViewItem Content="JPG" Tag="ConvertPNGToJPG" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
-                                <NavigationViewItem Content="PSD" Tag="ConvertPNGToPSD" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
-                                <NavigationViewItem Content="SVG" Tag="ConvertPNGToSVG" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
-                                <NavigationViewItem Content="TGA" Tag="ConvertPNGToTGA" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
-                                <NavigationViewItem Content="TIFF" Tag="ConvertPNGToTIFF" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
-                                <NavigationViewItem Content="WebP" Tag="ConvertPNGToWebP" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
-                            </NavigationViewItem.MenuItems>
-                        </NavigationViewItem>
-                    </NavigationViewItem.MenuItems>
-                </NavigationViewItem>
 
+        <NavigationView Grid.Row="1" PaneDisplayMode="Top" IsBackButtonVisible="Collapsed" SelectionChanged="NavBarSelectionChanged" x:Name="NavBar">
+            <NavigationView.MenuItems>
+                <NavigationViewItem x:Uid="HomeNavViewItem" Icon="Home" Tag="HomePage" FocusVisualPrimaryBrush="Transparent" FocusVisualSecondaryBrush="Transparent"/>
             </NavigationView.MenuItems>
             <Frame x:Name="ContentFrame"/>
         </NavigationView>

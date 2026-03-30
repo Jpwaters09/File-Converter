@@ -3,7 +3,6 @@ using Microsoft.UI.Xaml.Controls;
 using System;
 using Windows.ApplicationModel;
 using Windows.System;
-using Windows.Storage;
 
 namespace File_Converter_Utility
 {
@@ -38,20 +37,6 @@ namespace File_Converter_Utility
                     ThemeSelector.SelectedIndex = 0;
                     break;
             }
-
-            var mainWindow = App.m_window as MainWindow;
-            var currentNavViewPosition = mainWindow?.NavView.PaneDisplayMode;
-
-            switch (currentNavViewPosition)
-            {
-                case NavigationViewPaneDisplayMode.Left:
-                    NavViewPosition.SelectedIndex = 0;
-                    break;
-
-                case NavigationViewPaneDisplayMode.Top:
-                    NavViewPosition.SelectedIndex = 1;
-                    break;
-            }
         }
 
         private async void SendEmail(object sender, RoutedEventArgs e)
@@ -71,23 +56,6 @@ namespace File_Converter_Utility
             if (selectedTheme != null)
             {
                 ThemeHelper.RootTheme = App.GetEnum<ElementTheme>(selectedTheme);
-            }
-        }
-
-        private void ChangeNavViewPosition(object sender, RoutedEventArgs e)
-        {
-            var mainWindow = App.m_window as MainWindow;
-
-            if (NavViewPosition.SelectedIndex == 0)
-            {
-                mainWindow.NavView.PaneDisplayMode = NavigationViewPaneDisplayMode.Left;
-                ApplicationData.Current.LocalSettings.Values["NavViewPosition"] = "Left";
-            }
-
-            if (NavViewPosition.SelectedIndex == 1)
-            {
-                mainWindow.NavView.PaneDisplayMode = NavigationViewPaneDisplayMode.Top;
-                ApplicationData.Current.LocalSettings.Values["NavViewPosition"] = "Top";
             }
         }
     }

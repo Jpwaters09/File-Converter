@@ -118,174 +118,174 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AppTitle.Text" xml:space="preserve">
-    <value>फ़ाइल कनवर्टर</value>
+    <value>Conversor de Ficheiros</value>
   </data>
   <data name="ConvertFromComboBox.Header" xml:space="preserve">
-    <value>से कन्वर्ट करें</value>
+    <value>Converter de</value>
   </data>
   <data name="ConvertFromComboBox.PlaceholderText" xml:space="preserve">
-    <value>स्रोत फ़ाइल स्वरूप चुनें</value>
+    <value>Selecione o formato do ficheiro de origem</value>
   </data>
   <data name="ConvertFromItemPlaceholder.Content" xml:space="preserve">
-    <value>स्रोत फ़ाइल स्वरूप चुनें</value>
+    <value>Selecione o formato do ficheiro de origem</value>
   </data>
   <data name="ConvertToComboBox.Header" xml:space="preserve">
-    <value>में बदलो</value>
+    <value>Converter para</value>
   </data>
   <data name="ConvertToComboBox.PlaceholderText" xml:space="preserve">
-    <value>आउटपुट फ़ाइल फ़ॉर्मेट चुनें</value>
+    <value>Selecione o formato do ficheiro de saída.</value>
   </data>
   <data name="ConvertToItemPlaceholder.Content" xml:space="preserve">
-    <value>आउटपुट फ़ाइल फ़ॉर्मेट चुनें</value>
+    <value>Selecione o formato do ficheiro de saída.</value>
   </data>
   <data name="FileLocationsTextBlock.Text" xml:space="preserve">
-    <value>फ़ाइल स्थान</value>
+    <value>Localização dos ficheiros</value>
   </data>
   <data name="FileTypeComboBox.Header" xml:space="preserve">
-    <value>फ़ाइल प्रकार</value>
+    <value>Tipo de ficheiro</value>
   </data>
   <data name="FileTypeComboBox.PlaceholderText" xml:space="preserve">
-    <value>फ़ाइल प्रकार चुनें</value>
+    <value>Selecione o tipo de ficheiro</value>
   </data>
   <data name="FileTypeItemImage.Content" xml:space="preserve">
-    <value>छवि</value>
+    <value>Imagem</value>
   </data>
   <data name="FileTypeItemPlaceholder.Content" xml:space="preserve">
-    <value>फ़ाइल प्रकार चुनें</value>
+    <value>Selecione o tipo de ficheiro</value>
   </data>
   <data name="HomeNavViewItem.Content" xml:space="preserve">
-    <value>घर</value>
+    <value>Casa</value>
   </data>
   <data name="HomeNavViewItem.ToolTipService.ToolTip" xml:space="preserve">
-    <value>घर</value>
+    <value>Casa</value>
   </data>
   <data name="OutputFolderPathBox.PlaceholderText" xml:space="preserve">
-    <value>आउटपुट फ़ाइल फ़ोल्डर चुनें</value>
+    <value>Selecione a pasta do ficheiro de saída.</value>
   </data>
   <data name="SourceFilePathBox.PlaceholderText" xml:space="preserve">
-    <value>स्रोत फ़ाइल पथ चुनें</value>
+    <value>Selecione o caminho do ficheiro de origem</value>
   </data>
   <data name="FileSelectorButton.Content" xml:space="preserve">
-    <value>चुनना</value>
+    <value>Selecionar</value>
   </data>
   <data name="TitleBar.Title" xml:space="preserve">
-    <value>फ़ाइल कनवर्टर</value>
+    <value>Conversor de Ficheiros</value>
   </data>
   <data name="OutputSettingsTextBlock.Text" xml:space="preserve">
-    <value>उत्पादन का वातावरण</value>
+    <value>Configurações de saída</value>
   </data>
   <data name="OutputQualityTextBlock.Text" xml:space="preserve">
-    <value>आउटपुट गुणवत्ता</value>
+    <value>Qualidade da produção</value>
   </data>
   <data name="IconSizeTitle.Text" xml:space="preserve">
-    <value>आइकन का आकार</value>
+    <value>Tamanho do ícone</value>
   </data>
   <data name="IconSizeItem.Content" xml:space="preserve">
-    <value>विंडोज के लिए ICO</value>
+    <value>ICO para Windows</value>
   </data>
   <data name="StripMetadataCheckBox.Content" xml:space="preserve">
-    <value>स्ट्रिप मेटाडेटा</value>
+    <value>Remover metadados</value>
   </data>
   <data name="ConvertButton.Content" xml:space="preserve">
-    <value>बदलना</value>
+    <value>Converso</value>
   </data>
   <data name="SettingsTitleText.Text" xml:space="preserve">
-    <value>सेटिंग्स</value>
+    <value>Configurações</value>
   </data>
   <data name="AppearanceTextBlock.Text" xml:space="preserve">
-    <value>उपस्थिति</value>
+    <value>Aspeto</value>
   </data>
   <data name="AppThemeTextBlock.Text" xml:space="preserve">
-    <value>ऐप थीम</value>
+    <value>Tema da aplicação</value>
   </data>
   <data name="SelectAppThemeTextBlock.Text" xml:space="preserve">
-    <value>कौन सी ऐप थीम दिखानी है, चुनें</value>
+    <value>Selecione qual o tema da aplicação a exibir.</value>
   </data>
   <data name="SystemSettingComboBoxItem.Content" xml:space="preserve">
-    <value>सिस्टम सेटिंग का उपयोग करें</value>
+    <value>Utilizar as configurações do sistema</value>
   </data>
   <data name="LightSettingComboBoxItem.Content" xml:space="preserve">
-    <value>रोशनी</value>
+    <value>Luz</value>
   </data>
   <data name="DarkSettingComboBoxItem.Content" xml:space="preserve">
-    <value>अँधेरा</value>
+    <value>Escuro</value>
   </data>
   <data name="AboutTextBlock.Text" xml:space="preserve">
-    <value>के बारे में</value>
+    <value>Sobre</value>
   </data>
   <data name="CopyrightTextBlock.Text" xml:space="preserve">
-    <value>© 2026 जैकब वाटर्स। सभी अधिकार सुरक्षित।</value>
+    <value>© 2026 Jacob Waters. Todos os direitos reservados.</value>
   </data>
   <data name="DeveloperTextBlock.Text" xml:space="preserve">
-    <value>डेवलपर</value>
+    <value>Desenvolvedor</value>
   </data>
   <data name="NameTextBlock.Text" xml:space="preserve">
-    <value>जैकब वाटर्स</value>
+    <value>Jacob Águas</value>
   </data>
   <data name="BugRequestTextBlock.Text" xml:space="preserve">
-    <value>बग फ़ाइल करें या अनुरोध करें</value>
+    <value>Reportar um bug ou um pedido</value>
   </data>
   <data name="ContactTextBlock.Text" xml:space="preserve">
-    <value>मुझसे संपर्क करें</value>
+    <value>Entre em contacto comigo</value>
   </data>
   <data name="LinksAndSocialsTextBlock.Text" xml:space="preserve">
-    <value>लिंक और सोशल</value>
+    <value>Links e redes sociais</value>
   </data>
   <data name="WebsiteText.Content" xml:space="preserve">
-    <value>वेबसाइट</value>
+    <value>Site</value>
   </data>
   <data name="LicenceText.Content" xml:space="preserve">
-    <value>लाइसेंस</value>
+    <value>Licença</value>
   </data>
   <data name="PrivacyPolicyText.Content" xml:space="preserve">
-    <value>गोपनीयता नीति</value>
+    <value>política de Privacidade</value>
   </data>
   <data name="SourceCodeText.Content" xml:space="preserve">
-    <value>सोर्स कोड</value>
+    <value>Código-fonte</value>
   </data>
   <data name="FirstLaunchDialogTitle" xml:space="preserve">
-    <value>फ़ाइल कन्वर्टर में आपका स्वागत है</value>
+    <value>Bem-vindo ao Conversor de Ficheiros</value>
   </data>
   <data name="FirstLaunchDialogContent" xml:space="preserve">
-    <value>फ़ाइल कन्वर्टर खरीदने के लिए धन्यवाद। अपडेट्स, प्रीव्यू और ज़्यादा जानकारी के लिए कृपया मुझे फ़ॉलो करें।</value>
+    <value>Obrigado por ter adquirido o File Converter. Considere seguir-me para receber atualizações, antevisões e muito mais.</value>
   </data>
   <data name="FirstLaunchDialogPrimaryButtonText" xml:space="preserve">
-    <value>फ़ॉलो करें और सपोर्ट करें</value>
+    <value>Siga e apoie</value>
   </data>
   <data name="FirstLaunchDialogSecondaryButtonText" xml:space="preserve">
-    <value>मुझसे संपर्क करें</value>
+    <value>Entre em contacto comigo</value>
   </data>
   <data name="FirstLaunchDialogCloseButtonText" xml:space="preserve">
-    <value>शुरू हो जाओ</value>
+    <value>Comece agora</value>
   </data>
   <data name="RatingDialogTitle" xml:space="preserve">
-    <value>क्या आप इस ऐप का आनंद ले रहे हैं?</value>
+    <value>Está a gostar deste aplicativo?</value>
   </data>
   <data name="RatingDialogContent" xml:space="preserve">
-    <value>आपका फ़ीडबैक इस ऐप को बेहतर बनाने में मदद करता है. क्या आप इसे रेट करना चाहेंगे या अपने विचार शेयर करना चाहेंगे?</value>
+    <value>O seu feedback ajuda a melhorar este aplicativo. Gostaria de o avaliar ou partilhar a sua opinião?</value>
   </data>
   <data name="RatingDialogPrimaryButtonText" xml:space="preserve">
-    <value>एप्प का मूल्यांकन</value>
+    <value>Avalie a aplicação</value>
   </data>
   <data name="RatingDialogSecondaryButtonText" xml:space="preserve">
-    <value>समस्या की रिपोर्ट करें</value>
+    <value>Reportar um problema</value>
   </data>
   <data name="RatingDialogCloseButtonText" xml:space="preserve">
-    <value>बाद में</value>
+    <value>Mais tarde</value>
   </data>
   <data name="FinishedDialogTitle" xml:space="preserve">
-    <value>'{0}{1}' को '{0}.{2}' में बदला गया</value>
+    <value>O ficheiro '{0}{1}' foi convertido para '{0}.{2}'.</value>
   </data>
   <data name="FinishedDialogCloseButtonText" xml:space="preserve">
-    <value>ठीक है</value>
+    <value>OK</value>
   </data>
   <data name="ErrorDialogTitle" xml:space="preserve">
-    <value>छवि परिवर्तित करने में त्रुटि</value>
+    <value>Erro ao converter a imagem</value>
   </data>
   <data name="ErrorDialogPrimaryButtonText" xml:space="preserve">
-    <value>कॉपी त्रुटि</value>
+    <value>Erro de cópia</value>
   </data>
   <data name="ErrorDialogCloseButtonText" xml:space="preserve">
-    <value>ठीक है</value>
+    <value>OK</value>
   </data>
 </root>

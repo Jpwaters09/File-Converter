@@ -117,199 +117,175 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AboutTextBlock.Text" xml:space="preserve">
-    <value>About</value>
-  </data>
-  <data name="AppearanceAndBehaviourTextBlock.Text" xml:space="preserve">
-    <value>Appearance &amp; behavior</value>
-  </data>
-  <data name="AppThemeTextBlock.Text" xml:space="preserve">
-    <value>App Theme</value>
-  </data>
-  <data name="ContactMeTextBlock.Text" xml:space="preserve">
-    <value>Contact Me</value>
-  </data>
-  <data name="ConvertButton.Content" xml:space="preserve">
-    <value>Convert</value>
-  </data>
-  <data name="ConvertFromNavigationViewItemHeader.Content" xml:space="preserve">
-    <value>Convert From</value>
-  </data>
-  <data name="ConvertFromTextBlock.Text" xml:space="preserve">
-    <value>Convert From</value>
-  </data>
-  <data name="ConvertNavigationViewItem.Content" xml:space="preserve">
-    <value>Convert</value>
-  </data>
-  <data name="ConvertTextBlock.Text" xml:space="preserve">
-    <value>Convert</value>
-  </data>
-  <data name="ConvertToNavigationViewItemHeader.Content" xml:space="preserve">
-    <value>Convert To</value>
-  </data>
-  <data name="ConvertToTextBlock.Text" xml:space="preserve">
-    <value>Convert To</value>
-  </data>
-  <data name="DarkComboBoxItem.Content" xml:space="preserve">
-    <value>Dark</value>
-  </data>
-  <data name="DeveloperTextBlock.Text" xml:space="preserve">
-    <value>Developer</value>
-  </data>
-  <data name="FileABugOrRequestTextBlock.Text" xml:space="preserve">
-    <value>File a bug or request</value>
-  </data>
-  <data name="FileConverterTextBlock.Text" xml:space="preserve">
+  <data name="AppTitle.Text" xml:space="preserve">
     <value>File Converter</value>
   </data>
-  <data name="FileConverterTitleBar.Title" xml:space="preserve">
-    <value>File Converter</value>
+  <data name="ConvertFromComboBox.Header" xml:space="preserve">
+    <value>Convert From</value>
   </data>
-  <data name="FinishedDialogCloseButtonText" xml:space="preserve">
-    <value>OK</value>
+  <data name="ConvertFromComboBox.PlaceholderText" xml:space="preserve">
+    <value>Select source file format</value>
   </data>
-  <data name="FinishedDialogErrorTitle" xml:space="preserve">
-    <value>Error Converting Image</value>
+  <data name="ConvertFromItemPlaceholder.Content" xml:space="preserve">
+    <value>Select source file format</value>
   </data>
-  <data name="PNGToBMPFinishedDialogTitle" xml:space="preserve">
-    <value>Converted '{0}.png' to '{0}.bmp'</value>
+  <data name="ConvertToComboBox.Header" xml:space="preserve">
+    <value>Convert To</value>
   </data>
-  <data name="HomeNavigationViewItem.Content" xml:space="preserve">
+  <data name="ConvertToComboBox.PlaceholderText" xml:space="preserve">
+    <value>Select output file format</value>
+  </data>
+  <data name="ConvertToItemPlaceholder.Content" xml:space="preserve">
+    <value>Select output file format</value>
+  </data>
+  <data name="FileLocationsTextBlock.Text" xml:space="preserve">
+    <value>File Locations</value>
+  </data>
+  <data name="FileTypeComboBox.Header" xml:space="preserve">
+    <value>File Type</value>
+  </data>
+  <data name="FileTypeComboBox.PlaceholderText" xml:space="preserve">
+    <value>Select file type</value>
+  </data>
+  <data name="FileTypeItemImage.Content" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="FileTypeItemPlaceholder.Content" xml:space="preserve">
+    <value>Select file type</value>
+  </data>
+  <data name="HomeNavViewItem.Content" xml:space="preserve">
     <value>Home</value>
   </data>
-  <data name="ImageConversionTextBlock.Text" xml:space="preserve">
-    <value>Image Conversion</value>
+  <data name="HomeNavViewItem.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Home</value>
   </data>
-  <data name="ImageNavigationViewItem.Content" xml:space="preserve">
-    <value>Image</value>
+  <data name="OutputFolderPathBox.PlaceholderText" xml:space="preserve">
+    <value>Select output file folder</value>
   </data>
-  <data name="ImagePathTextBox.PlaceholderText" xml:space="preserve">
-    <value>Image Path:</value>
+  <data name="SourceFilePathBox.PlaceholderText" xml:space="preserve">
+    <value>Select source file path</value>
   </data>
-  <data name="ImageTextBlock.Text" xml:space="preserve">
-    <value>Image</value>
+  <data name="FileSelectorButton.Content" xml:space="preserve">
+    <value>Select</value>
   </data>
-  <data name="LeftComboBoxItem.Content" xml:space="preserve">
-    <value>Left</value>
+  <data name="TitleBar.Title" xml:space="preserve">
+    <value>File Converter</value>
   </data>
-  <data name="LicenceHyperlinkButton.Content" xml:space="preserve">
-    <value>License</value>
-  </data>
-  <data name="LightComboBoxItem.Content" xml:space="preserve">
-    <value>Light</value>
-  </data>
-  <data name="LinksAndSocialsTextBlock.Text" xml:space="preserve">
-    <value>Links &amp; socials</value>
-  </data>
-  <data name="NavigationStyleTextBlock.Text" xml:space="preserve">
-    <value>Navigation style</value>
-  </data>
-  <data name="OutputImageFolderTextBox.PlaceholderText" xml:space="preserve">
-    <value>Output Image Folder:</value>
-  </data>
-  <data name="PNGConversionTextBlock.Text" xml:space="preserve">
-    <value>PNG Conversion</value>
-  </data>
-  <data name="PNGToBMPTextBlock.Text" xml:space="preserve">
-    <value>PNG To BMP</value>
-  </data>
-  <data name="PNGToEPSTextBlock.Text" xml:space="preserve">
-    <value>PNG To EPS</value>
-  </data>
-  <data name="PrivacyPolicyHyperlinkButton.Content" xml:space="preserve">
-    <value>Privacy Policy</value>
-  </data>
-  <data name="SelectImageButton.Content" xml:space="preserve">
-    <value>Select Image</value>
-  </data>
-  <data name="SelectOutputFolderButton.Content" xml:space="preserve">
-    <value>Select Output Folder</value>
-  </data>
-  <data name="SelectWhichAppThemeToDisplayTextBlock.Text" xml:space="preserve">
-    <value>Select which app theme to display</value>
-  </data>
-  <data name="SettingsTextBlock.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="SourceCodeHyperlinkButton.Content" xml:space="preserve">
-    <value>Source Code</value>
-  </data>
-  <data name="TopComboBoxItem.Content" xml:space="preserve">
-    <value>Top</value>
-  </data>
-  <data name="UseSystemSettingComboBoxItem.Content" xml:space="preserve">
-    <value>Use system setting</value>
-  </data>
-  <data name="WebsiteHyperlinkButton.Content" xml:space="preserve">
-    <value>Website</value>
-  </data>
-  <data name="PNGToESPFinishedDialogTitle" xml:space="preserve">
-    <value>Converted '{0}.png' to '{0}.eps'</value>
-  </data>
-  <data name="PNGToGIFTextBlock.Text" xml:space="preserve">
-    <value>PNG To GIF</value>
-  </data>
-  <data name="PNGToGIFFinishedDialogTitle" xml:space="preserve">
-    <value>Converted '{0}.png' to '{0}.gif'</value>
-  </data>
-  <data name="PNGToICOTextBlock.Text" xml:space="preserve">
-    <value>PNG To ICO</value>
-  </data>
-  <data name="IconSizeTextBlock.Text" xml:space="preserve">
-    <value>Icon Size</value>
-  </data>
-  <data name="ICOForWindowsComboBoxItem.Content" xml:space="preserve">
-    <value>ICO for Windows</value>
-  </data>
-  <data name="PNGToICOFinishedDialogTitle" xml:space="preserve">
-    <value>Converted '{0}.png' to '{0}.ico'</value>
-  </data>
-  <data name="PNGToJPEGTextBlock.Text" xml:space="preserve">
-    <value>PNG To JPEG</value>
+  <data name="OutputSettingsTextBlock.Text" xml:space="preserve">
+    <value>Output Settings</value>
   </data>
   <data name="OutputQualityTextBlock.Text" xml:space="preserve">
     <value>Output Quality</value>
   </data>
-  <data name="PNGToJPEGFinishedDialogTitle" xml:space="preserve">
-    <value>Converted '{0}.png' to '{0}.jpeg'</value>
+  <data name="IconSizeTitle.Text" xml:space="preserve">
+    <value>Icon Size</value>
   </data>
-  <data name="PNGToJPGTextBlock.Text" xml:space="preserve">
-    <value>PNG To JPG</value>
-  </data>
-  <data name="PNGToJPGFinishedDialogTitle" xml:space="preserve">
-    <value>Converted '{0}.png' to '{0}.jpg'</value>
+  <data name="IconSizeItem.Content" xml:space="preserve">
+    <value>ICO for Windows</value>
   </data>
   <data name="StripMetadataCheckBox.Content" xml:space="preserve">
     <value>Strip Metadata</value>
   </data>
-  <data name="PNGToPSDTextBlock.Text" xml:space="preserve">
-    <value>PNG To PSD</value>
+  <data name="ConvertButton.Content" xml:space="preserve">
+    <value>Convert</value>
   </data>
-  <data name="PNGToPSDFinishedDialogTitle" xml:space="preserve">
-    <value>Converted '{0}.png' to '{0}.psd'</value>
+  <data name="SettingsTitleText.Text" xml:space="preserve">
+    <value>Settings</value>
   </data>
-  <data name="PNGToSVGTextBlock.Text" xml:space="preserve">
-    <value>PNG To SVG</value>
+  <data name="AppearanceTextBlock.Text" xml:space="preserve">
+    <value>Appearance</value>
   </data>
-  <data name="PNGToSVGFinishedDialogTitle" xml:space="preserve">
-    <value>Converted '{0}.png' to '{0}.svg'</value>
+  <data name="AppThemeTextBlock.Text" xml:space="preserve">
+    <value>App Theme</value>
   </data>
-  <data name="PNGToTGATextBlock.Text" xml:space="preserve">
-    <value>PNG To TGA</value>
+  <data name="SelectAppThemeTextBlock.Text" xml:space="preserve">
+    <value>Select which app theme to display</value>
   </data>
-  <data name="PNGToTGAFinishedDialogTitle" xml:space="preserve">
-    <value>Converted '{0}.png' to '{0}.tga'</value>
+  <data name="SystemSettingComboBoxItem.Content" xml:space="preserve">
+    <value>Use system setting</value>
   </data>
-  <data name="PNGToTIFFTextBlock.Text" xml:space="preserve">
-    <value>PNG To TIFF</value>
+  <data name="LightSettingComboBoxItem.Content" xml:space="preserve">
+    <value>Light</value>
   </data>
-  <data name="PNGToTIFFFinishedDialogTitle" xml:space="preserve">
-    <value>Converted '{0}.png' to '{0}.tiff'</value>
+  <data name="DarkSettingComboBoxItem.Content" xml:space="preserve">
+    <value>Dark</value>
   </data>
-  <data name="PNGToWebPTextBlock.Text" xml:space="preserve">
-    <value>PNG To WebP</value>
+  <data name="AboutTextBlock.Text" xml:space="preserve">
+    <value>About</value>
   </data>
-  <data name="PNGToWebPFinishedDialogTitle" xml:space="preserve">
-    <value>Converted '{0}.png' to '{0}.webp'</value>
+  <data name="CopyrightTextBlock.Text" xml:space="preserve">
+    <value>© 2026 Jacob Waters. All rights reserved.</value>
+  </data>
+  <data name="DeveloperTextBlock.Text" xml:space="preserve">
+    <value>Developer</value>
+  </data>
+  <data name="NameTextBlock.Text" xml:space="preserve">
+    <value>Jacob Waters</value>
+  </data>
+  <data name="BugRequestTextBlock.Text" xml:space="preserve">
+    <value>File a bug or request</value>
+  </data>
+  <data name="ContactTextBlock.Text" xml:space="preserve">
+    <value>Contact Me</value>
+  </data>
+  <data name="LinksAndSocialsTextBlock.Text" xml:space="preserve">
+    <value>Links &amp; Socials</value>
+  </data>
+  <data name="WebsiteText.Content" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="LicenceText.Content" xml:space="preserve">
+    <value>Licence</value>
+  </data>
+  <data name="PrivacyPolicyText.Content" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="SourceCodeText.Content" xml:space="preserve">
+    <value>Source Code</value>
+  </data>
+  <data name="FirstLaunchDialogTitle" xml:space="preserve">
+    <value>Welcome to File Converter</value>
+  </data>
+  <data name="FirstLaunchDialogContent" xml:space="preserve">
+    <value>Thanks for purchasing File Converter. Please consider following me for updates, previews, and more.</value>
+  </data>
+  <data name="FirstLaunchDialogPrimaryButtonText" xml:space="preserve">
+    <value>Follow &amp; Support</value>
+  </data>
+  <data name="FirstLaunchDialogSecondaryButtonText" xml:space="preserve">
+    <value>Contact Me</value>
+  </data>
+  <data name="FirstLaunchDialogCloseButtonText" xml:space="preserve">
+    <value>Get Started</value>
+  </data>
+  <data name="RatingDialogTitle" xml:space="preserve">
+    <value>Are you enjoying this app?</value>
+  </data>
+  <data name="RatingDialogContent" xml:space="preserve">
+    <value>Your feedback helps improve this app. Would you like to rate it or share your thoughts?</value>
+  </data>
+  <data name="RatingDialogPrimaryButtonText" xml:space="preserve">
+    <value>Rate app</value>
+  </data>
+  <data name="RatingDialogSecondaryButtonText" xml:space="preserve">
+    <value>Report an issue</value>
+  </data>
+  <data name="RatingDialogCloseButtonText" xml:space="preserve">
+    <value>Later</value>
+  </data>
+  <data name="FinishedDialogTitle" xml:space="preserve">
+    <value>Converted '{0}{1}' to '{0}.{2}'</value>
+  </data>
+  <data name="FinishedDialogCloseButtonText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ErrorDialogTitle" xml:space="preserve">
+    <value>Error Converting Image</value>
+  </data>
+  <data name="ErrorDialogPrimaryButtonText" xml:space="preserve">
+    <value>Copy Error</value>
+  </data>
+  <data name="ErrorDialogCloseButtonText" xml:space="preserve">
+    <value>OK</value>
   </data>
 </root>

@@ -8,16 +8,107 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Padding="36, 40, 36, 40">
-        <TextBlock x:Uid="FileConverterTextBlock" Style="{ThemeResource TitleTextBlockStyle}" Margin="0, 0, 0, 36"/>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
-        <TextBlock x:Uid="ConvertTextBlock" Style="{ThemeResource SubtitleTextBlockStyle}" Margin="0, 0, 0, 12"/>
+        <TextBlock x:Uid="AppTitle" Grid.Row="0" Margin="36, 40, 0, 36" Style="{ThemeResource TitleTextBlockStyle}"/>
 
-        <Button Padding="12" Click="RedirectToImageConversion">
-            <StackPanel Orientation="Horizontal" Spacing="8">
-                <FontIcon Glyph="&#xE8B9;"/>
-                <TextBlock x:Uid="ImageTextBlock" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+        <ScrollViewer Grid.Row="1" Padding="36, 0, 36, 0" IsTabStop="False" VerticalScrollBarVisibility="Auto" VerticalScrollMode="Auto" HorizontalScrollBarVisibility="Auto" HorizontalScrollMode="Auto" UseSystemFocusVisuals="False">
+            <StackPanel>
+                <TextBlock x:Uid="AppTitle" Style="{ThemeResource SubtitleTextBlockStyle}" Margin="0, 0, 0, 24"/>
+                <StackPanel Orientation="Horizontal" Spacing="12" Margin="0, 0, 0, 24">
+                    <ComboBox x:Name="FileTypeComboBox" x:Uid="FileTypeComboBox" Margin="0, 0, 4, 0" SelectionChanged="FileTypeComboBox_SelectionChanged" Width="150">
+                        <ComboBoxItem x:Uid="FileTypeItemPlaceholder" IsEnabled="False"/>
+                        <ComboBoxItem x:Uid="FileTypeItemImage"/>
+                    </ComboBox>
+
+                    <ComboBox x:Name="ConvertFromComboBox" x:Uid="ConvertFromComboBox" SelectionChanged="ConvertFromComboBox_SelectionChanged" Width="200">
+                        <ComboBoxItem x:Uid="ConvertFromItemPlaceholder" IsEnabled="False"/>
+                        <ComboBoxItem x:Name="SourceBMPItem" Content="BMP" Visibility="Collapsed"/>
+                        <ComboBoxItem x:Name="SourceGIFItem" Content="GIF" Visibility="Collapsed"/>
+                        <ComboBoxItem x:Name="SourceICOItem" Content="ICO" Visibility="Collapsed"/>
+                        <ComboBoxItem x:Name="SourceJPEGItem" Content="JPEG" Visibility="Collapsed"/>
+                        <ComboBoxItem x:Name="SourceJPGItem" Content="JPG" Visibility="Collapsed"/>
+                        <ComboBoxItem x:Name="SourcePNGItem" Content="PNG" Visibility="Collapsed"/>
+                        <ComboBoxItem x:Name="SourcePSDItem" Content="PSD" Visibility="Collapsed"/>
+                        <ComboBoxItem x:Name="SourceSVGItem" Content="SVG" Visibility="Collapsed"/>
+                        <ComboBoxItem x:Name="SourceTGAItem" Content="TGA" Visibility="Collapsed"/>
+                        <ComboBoxItem x:Name="SourceTIFFItem" Content="TIFF" Visibility="Collapsed"/>
+                        <ComboBoxItem x:Name="SourceWebPItem" Content="WebP" Visibility="Collapsed"/>
+                    </ComboBox>
+
+                    <ComboBox x:Name="ConvertToComboBox" x:Uid="ConvertToComboBox" SelectionChanged="ConvertToComboBox_SelectionChanged" Width="200">
+                        <ComboBoxItem x:Uid="ConvertToItemPlaceholder" IsEnabled="False"/>
+                        <ComboBoxItem x:Name="OutputBMPItem" Content="BMP" Visibility="Collapsed"/>
+                        <ComboBoxItem x:Name="OutputEPSItem" Content="EPS" Visibility="Collapsed"/>
+                        <ComboBoxItem x:Name="OutputGIFItem" Content="GIF" Visibility="Collapsed"/>
+                        <ComboBoxItem x:Name="OutputICOItem" Content="ICO" Visibility="Collapsed"/>
+                        <ComboBoxItem x:Name="OutputJPEGItem" Content="JPEG" Visibility="Collapsed"/>
+                        <ComboBoxItem x:Name="OutputJPGItem" Content="JPG" Visibility="Collapsed"/>
+                        <ComboBoxItem x:Name="OutputPNGItem" Content="PNG" Visibility="Collapsed"/>
+                        <ComboBoxItem x:Name="OutputPSDItem" Content="PSD" Visibility="Collapsed"/>
+                        <ComboBoxItem x:Name="OutputSVGItem" Content="SVG" Visibility="Collapsed"/>
+                        <ComboBoxItem x:Name="OutputTGAItem" Content="TGA" Visibility="Collapsed"/>
+                        <ComboBoxItem x:Name="OutputTIFFItem" Content="TIFF" Visibility="Collapsed"/>
+                        <ComboBoxItem x:Name="OutputWebPItem" Content="WebP" Visibility="Collapsed"/>
+                    </ComboBox>
+                </StackPanel>
+
+                <TextBlock x:Uid="FileLocationsTextBlock" Style="{ThemeResource SubtitleTextBlockStyle}" Margin="0, 0, 0, 24"/>
+                <Grid ColumnSpacing="8" Margin="0, 0, 0, 16">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBox x:Name="SourceFilePathBox" x:Uid="SourceFilePathBox" IsEnabled="False" Grid.Column="0" IsReadOnly="True" VerticalAlignment="Center"/>
+                    <Button x:Name="SourceFileSelectorButton" x:Uid="FileSelectorButton" IsEnabled="False" VerticalAlignment="Center" Grid.Column="1" Click="SourceFileSelectorButton_Click"/>
+                </Grid>
+
+                <Grid ColumnSpacing="8" Margin="0, 0, 0, 24">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBox x:Name="OutputFolderPathBox" x:Uid="OutputFolderPathBox" IsEnabled="False" Grid.Column="0" IsReadOnly="True" VerticalAlignment="Center"/>
+                    <Button x:Name="OutputFolderSelectorButton" x:Uid="FileSelectorButton" IsEnabled="False" VerticalAlignment="Center" Grid.Column="1" Click="OutputFolderSelectorButton_Click"/>
+                </Grid>
+
+                <TextBlock x:Uid="OutputSettingsTextBlock" Style="{ThemeResource SubtitleTextBlockStyle}" Margin="0, 0, 0, 24"/>
+                <TextBlock x:Name="OutputQualityTitle" x:Uid="OutputQualityTextBlock" Visibility="Collapsed" Style="{ThemeResource BodyTextBlockStyle}" Margin="0, 0, 0, 12"/>
+                <Grid x:Name="OutputQualityGrid" Visibility="Collapsed" ColumnSpacing="8" Margin="0, 0, 0, 16">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Slider x:Name="OutputQualitySlider" Grid.Column="0" VerticalAlignment="Center" Value="75" Minimum="0" Maximum="100" ValueChanged="OutputQualitySlider_ValueChanged"/>
+                    <TextBlock Grid.Column="1" x:Name="OutputQualityText" VerticalAlignment="Center" Text="75%"/>
+                </Grid>
+
+                <TextBlock x:Name="IconSizeTitle" x:Uid="IconSizeTitle" Visibility="Collapsed" Margin="0, 0, 0, 8" Style="{ThemeResource BodyTextBlockStyle}"/>
+                <ComboBox Visibility="Collapsed" x:Name="IconSizeComboBox" SelectedIndex="0" Margin="0, 0, 0, 16">
+                    <ComboBoxItem x:Uid="IconSizeItem" Tag="Windows"/>
+                    <ComboBoxItem Content="16 x 16" Tag="16"/>
+                    <ComboBoxItem Content="24 x 24" Tag="24"/>
+                    <ComboBoxItem Content="32 x 32" Tag="32"/>
+                    <ComboBoxItem Content="48 x 48" Tag="48"/>
+                    <ComboBoxItem Content="64 x 64" Tag="64"/>
+                    <ComboBoxItem Content="96 x 96" Tag="96"/>
+                    <ComboBoxItem Content="128 x 128" Tag="128"/>
+                    <ComboBoxItem Content="192 x 192" Tag="192"/>
+                    <ComboBoxItem Content="256 x 256" Tag="256"/>
+                </ComboBox>
+
+                <CheckBox x:Name="StripMetadataCheckBox" x:Uid="StripMetadataCheckBox" Margin="0, 0, 0, 24"/>
+
+                <Button x:Name="ConvertButton" x:Uid="ConvertButton" IsEnabled="False" Margin="0, 0, 0, 16" Click="ConvertButton_Click"/>
+                <ProgressRing x:Name="ConversionProgressRing" IsActive="False" HorizontalAlignment="Left"/>
             </StackPanel>
-        </Button>
-    </StackPanel>
+        </ScrollViewer>
+    </Grid>
 </Page>

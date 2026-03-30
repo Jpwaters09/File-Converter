@@ -117,199 +117,175 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AboutTextBlock.Text" xml:space="preserve">
-    <value>সম্পর্কে</value>
+  <data name="AppTitle.Text" xml:space="preserve">
+    <value>ফাইল রূপান্তরকারী</value>
   </data>
-  <data name="AppearanceAndBehaviourTextBlock.Text" xml:space="preserve">
-    <value>চেহারা এবং আচরণ</value>
+  <data name="ConvertFromComboBox.Header" xml:space="preserve">
+    <value>রূপান্তর করুন</value>
+  </data>
+  <data name="ConvertFromComboBox.PlaceholderText" xml:space="preserve">
+    <value>উৎস ফাইলের ফরম্যাট নির্বাচন করুন</value>
+  </data>
+  <data name="ConvertFromItemPlaceholder.Content" xml:space="preserve">
+    <value>উৎস ফাইলের ফরম্যাট নির্বাচন করুন</value>
+  </data>
+  <data name="ConvertToComboBox.Header" xml:space="preserve">
+    <value>রূপান্তর করুন</value>
+  </data>
+  <data name="ConvertToComboBox.PlaceholderText" xml:space="preserve">
+    <value>আউটপুট ফাইলের ফরম্যাট নির্বাচন করুন</value>
+  </data>
+  <data name="ConvertToItemPlaceholder.Content" xml:space="preserve">
+    <value>আউটপুট ফাইলের ফরম্যাট নির্বাচন করুন</value>
+  </data>
+  <data name="FileLocationsTextBlock.Text" xml:space="preserve">
+    <value>ফাইলের অবস্থান</value>
+  </data>
+  <data name="FileTypeComboBox.Header" xml:space="preserve">
+    <value>ফাইলের ধরন</value>
+  </data>
+  <data name="FileTypeComboBox.PlaceholderText" xml:space="preserve">
+    <value>ফাইলের ধরন নির্বাচন করুন</value>
+  </data>
+  <data name="FileTypeItemImage.Content" xml:space="preserve">
+    <value>ছবি</value>
+  </data>
+  <data name="FileTypeItemPlaceholder.Content" xml:space="preserve">
+    <value>ফাইলের ধরন নির্বাচন করুন</value>
+  </data>
+  <data name="HomeNavViewItem.Content" xml:space="preserve">
+    <value>হোম</value>
+  </data>
+  <data name="HomeNavViewItem.ToolTipService.ToolTip" xml:space="preserve">
+    <value>হোম</value>
+  </data>
+  <data name="OutputFolderPathBox.PlaceholderText" xml:space="preserve">
+    <value>আউটপুট ফাইল ফোল্ডার নির্বাচন করুন</value>
+  </data>
+  <data name="SourceFilePathBox.PlaceholderText" xml:space="preserve">
+    <value>উৎস ফাইলের পথ নির্বাচন করুন</value>
+  </data>
+  <data name="FileSelectorButton.Content" xml:space="preserve">
+    <value>নির্বাচন করুন</value>
+  </data>
+  <data name="TitleBar.Title" xml:space="preserve">
+    <value>ফাইল রূপান্তরকারী</value>
+  </data>
+  <data name="OutputSettingsTextBlock.Text" xml:space="preserve">
+    <value>আউটপুট সেটিংস</value>
+  </data>
+  <data name="OutputQualityTextBlock.Text" xml:space="preserve">
+    <value>আউটপুট গুণমান</value>
+  </data>
+  <data name="IconSizeTitle.Text" xml:space="preserve">
+    <value>আইকনের আকার</value>
+  </data>
+  <data name="IconSizeItem.Content" xml:space="preserve">
+    <value>উইন্ডোজের জন্য আইসিও</value>
+  </data>
+  <data name="StripMetadataCheckBox.Content" xml:space="preserve">
+    <value>মেটাডেটা স্ট্রিপ করুন</value>
+  </data>
+  <data name="ConvertButton.Content" xml:space="preserve">
+    <value>রূপান্তর করুন</value>
+  </data>
+  <data name="SettingsTitleText.Text" xml:space="preserve">
+    <value>সেটিংস</value>
+  </data>
+  <data name="AppearanceTextBlock.Text" xml:space="preserve">
+    <value>চেহারা</value>
   </data>
   <data name="AppThemeTextBlock.Text" xml:space="preserve">
     <value>অ্যাপ থিম</value>
   </data>
-  <data name="ContactMeTextBlock.Text" xml:space="preserve">
-    <value>আমার সাথে যোগাযোগ করুন</value>
+  <data name="SelectAppThemeTextBlock.Text" xml:space="preserve">
+    <value>কোন অ্যাপ থিমটি প্রদর্শন করতে হবে তা নির্বাচন করুন</value>
   </data>
-  <data name="ConvertButton.Content" xml:space="preserve">
-    <value>রূপান্তর</value>
+  <data name="SystemSettingComboBoxItem.Content" xml:space="preserve">
+    <value>সিস্টেম সেটিং ব্যবহার করুন</value>
   </data>
-  <data name="ConvertFromNavigationViewItemHeader.Content" xml:space="preserve">
-    <value>থেকে রূপান্তর করুন</value>
+  <data name="LightSettingComboBoxItem.Content" xml:space="preserve">
+    <value>আলো</value>
   </data>
-  <data name="ConvertFromTextBlock.Text" xml:space="preserve">
-    <value>থেকে রূপান্তর করুন</value>
-  </data>
-  <data name="ConvertNavigationViewItem.Content" xml:space="preserve">
-    <value>রূপান্তর</value>
-  </data>
-  <data name="ConvertTextBlock.Text" xml:space="preserve">
-    <value>রূপান্তর</value>
-  </data>
-  <data name="ConvertToNavigationViewItemHeader.Content" xml:space="preserve">
-    <value>রূপান্তর করুন</value>
-  </data>
-  <data name="ConvertToTextBlock.Text" xml:space="preserve">
-    <value>রূপান্তর করুন</value>
-  </data>
-  <data name="DarkComboBoxItem.Content" xml:space="preserve">
+  <data name="DarkSettingComboBoxItem.Content" xml:space="preserve">
     <value>অন্ধকার</value>
+  </data>
+  <data name="AboutTextBlock.Text" xml:space="preserve">
+    <value>সম্পর্কে</value>
+  </data>
+  <data name="CopyrightTextBlock.Text" xml:space="preserve">
+    <value>© ২০২৬ জ্যাকব ওয়াটার্স। সর্বস্বত্ব সংরক্ষিত।</value>
   </data>
   <data name="DeveloperTextBlock.Text" xml:space="preserve">
     <value>ডেভেলপার</value>
   </data>
-  <data name="FileABugOrRequestTextBlock.Text" xml:space="preserve">
-    <value>একটি বাগ বা অনুরোধ দায়ের করুন</value>
+  <data name="NameTextBlock.Text" xml:space="preserve">
+    <value>জ্যাকব ওয়াটার্স</value>
   </data>
-  <data name="FileConverterTextBlock.Text" xml:space="preserve">
-    <value>ফাইল কনভার্টার</value>
+  <data name="BugRequestTextBlock.Text" xml:space="preserve">
+    <value>একটি ত্রুটি বা অনুরোধ জানান</value>
   </data>
-  <data name="FileConverterTitleBar.Title" xml:space="preserve">
-    <value>ফাইল কনভার্টার</value>
-  </data>
-  <data name="FinishedDialogCloseButtonText" xml:space="preserve">
-    <value>আচ্ছা</value>
-  </data>
-  <data name="FinishedDialogErrorTitle" xml:space="preserve">
-    <value>ছবি রূপান্তর করার সময় ত্রুটি</value>
-  </data>
-  <data name="PNGToBMPFinishedDialogTitle" xml:space="preserve">
-    <value>'{0}.png' কে '{0}.bmp' তে রূপান্তরিত করা হয়েছে</value>
-  </data>
-  <data name="HomeNavigationViewItem.Content" xml:space="preserve">
-    <value>হোম</value>
-  </data>
-  <data name="ImageConversionTextBlock.Text" xml:space="preserve">
-    <value>চিত্র রূপান্তর</value>
-  </data>
-  <data name="ImageNavigationViewItem.Content" xml:space="preserve">
-    <value>ভাবমূর্তি</value>
-  </data>
-  <data name="ImagePathTextBox.PlaceholderText" xml:space="preserve">
-    <value>ছবির পথ:</value>
-  </data>
-  <data name="ImageTextBlock.Text" xml:space="preserve">
-    <value>ভাবমূর্তি</value>
-  </data>
-  <data name="LeftComboBoxItem.Content" xml:space="preserve">
-    <value>বাম</value>
-  </data>
-  <data name="LicenceHyperlinkButton.Content" xml:space="preserve">
-    <value>লাইসেন্স</value>
-  </data>
-  <data name="LightComboBoxItem.Content" xml:space="preserve">
-    <value>আলো</value>
+  <data name="ContactTextBlock.Text" xml:space="preserve">
+    <value>আমার সাথে যোগাযোগ করুন</value>
   </data>
   <data name="LinksAndSocialsTextBlock.Text" xml:space="preserve">
-    <value>লিঙ্ক এবং সোশ্যাল মিডিয়া</value>
+    <value>লিঙ্ক এবং সামাজিক মাধ্যম</value>
   </data>
-  <data name="NavigationStyleTextBlock.Text" xml:space="preserve">
-    <value>নেভিগেশন স্টাইল</value>
-  </data>
-  <data name="OutputImageFolderTextBox.PlaceholderText" xml:space="preserve">
-    <value>আউটপুট ইমেজ ফোল্ডার:</value>
-  </data>
-  <data name="PNGConversionTextBlock.Text" xml:space="preserve">
-    <value>পিএনজি রূপান্তর</value>
-  </data>
-  <data name="PNGToBMPTextBlock.Text" xml:space="preserve">
-    <value>PNG থেকে BMP</value>
-  </data>
-  <data name="PNGToEPSTextBlock.Text" xml:space="preserve">
-    <value>PNG থেকে EPS</value>
-  </data>
-  <data name="PrivacyPolicyHyperlinkButton.Content" xml:space="preserve">
-    <value>গোপনীয়তা নীতি</value>
-  </data>
-  <data name="SelectImageButton.Content" xml:space="preserve">
-    <value>ছবি নির্বাচন করুন</value>
-  </data>
-  <data name="SelectOutputFolderButton.Content" xml:space="preserve">
-    <value>আউটপুট ফোল্ডার নির্বাচন করুন</value>
-  </data>
-  <data name="SelectWhichAppThemeToDisplayTextBlock.Text" xml:space="preserve">
-    <value>কোন অ্যাপ থিমটি প্রদর্শন করবেন তা নির্বাচন করুন</value>
-  </data>
-  <data name="SettingsTextBlock.Text" xml:space="preserve">
-    <value>সেটিংস</value>
-  </data>
-  <data name="SourceCodeHyperlinkButton.Content" xml:space="preserve">
-    <value>সোর্স কোড</value>
-  </data>
-  <data name="TopComboBoxItem.Content" xml:space="preserve">
-    <value>শীর্ষ</value>
-  </data>
-  <data name="UseSystemSettingComboBoxItem.Content" xml:space="preserve">
-    <value>সিস্টেম সেটিং ব্যবহার করুন</value>
-  </data>
-  <data name="WebsiteHyperlinkButton.Content" xml:space="preserve">
+  <data name="WebsiteText.Content" xml:space="preserve">
     <value>ওয়েবসাইট</value>
   </data>
-  <data name="PNGToESPFinishedDialogTitle" xml:space="preserve">
-    <value>'{0}.png' কে '{0}.eps' তে রূপান্তরিত করা হয়েছে</value>
+  <data name="LicenceText.Content" xml:space="preserve">
+    <value>লাইসেন্স</value>
   </data>
-  <data name="PNGToGIFTextBlock.Text" xml:space="preserve">
-    <value>PNG থেকে GIF</value>
+  <data name="PrivacyPolicyText.Content" xml:space="preserve">
+    <value>গোপনীয়তা নীতি</value>
   </data>
-  <data name="PNGToGIFFinishedDialogTitle" xml:space="preserve">
-    <value>'{0}.png' কে '{0}.gif' তে রূপান্তরিত করা হয়েছে</value>
+  <data name="SourceCodeText.Content" xml:space="preserve">
+    <value>উৎস কোড</value>
   </data>
-  <data name="PNGToICOTextBlock.Text" xml:space="preserve">
-    <value>PNG থেকে ICO</value>
+  <data name="FirstLaunchDialogTitle" xml:space="preserve">
+    <value>ফাইল কনভার্টারে আপনাকে স্বাগতম</value>
   </data>
-  <data name="IconSizeTextBlock.Text" xml:space="preserve">
-    <value>আইকনের আকার</value>
+  <data name="FirstLaunchDialogContent" xml:space="preserve">
+    <value>ফাইল কনভার্টার কেনার জন্য ধন্যবাদ। আপডেট, প্রিভিউ এবং আরও অনেক কিছুর জন্য আমাকে ফলো করতে পারেন।</value>
   </data>
-  <data name="ICOForWindowsComboBoxItem.Content" xml:space="preserve">
-    <value>উইন্ডোজের জন্য ICO</value>
+  <data name="FirstLaunchDialogPrimaryButtonText" xml:space="preserve">
+    <value>অনুসরণ করুন ও সমর্থন করুন</value>
   </data>
-  <data name="PNGToICOFinishedDialogTitle" xml:space="preserve">
-    <value>'{0}.png' কে '{0}.ico' তে রূপান্তরিত করা হয়েছে</value>
+  <data name="FirstLaunchDialogSecondaryButtonText" xml:space="preserve">
+    <value>আমার সাথে যোগাযোগ করুন</value>
   </data>
-  <data name="PNGToJPEGTextBlock.Text" xml:space="preserve">
-    <value>PNG থেকে JPEG</value>
+  <data name="FirstLaunchDialogCloseButtonText" xml:space="preserve">
+    <value>শুরু করুন</value>
   </data>
-  <data name="OutputQualityTextBlock.Text" xml:space="preserve">
-    <value>আউটপুট কোয়ালিটি</value>
+  <data name="RatingDialogTitle" xml:space="preserve">
+    <value>আপনি কি এই অ্যাপটি উপভোগ করছেন?</value>
   </data>
-  <data name="PNGToJPEGFinishedDialogTitle" xml:space="preserve">
-    <value>'{0}.png' কে '{0}.jpeg' তে রূপান্তরিত করা হয়েছে</value>
+  <data name="RatingDialogContent" xml:space="preserve">
+    <value>আপনার মতামত এই অ্যাপটিকে আরও উন্নত করতে সাহায্য করে। আপনি কি এটিকে রেটিং দিতে বা আপনার ভাবনা জানাতে চান?</value>
   </data>
-  <data name="PNGToJPGTextBlock.Text" xml:space="preserve">
-    <value>PNG থেকে JPG</value>
+  <data name="RatingDialogPrimaryButtonText" xml:space="preserve">
+    <value>অ্যাপটি রেট করুন</value>
   </data>
-  <data name="PNGToJPGFinishedDialogTitle" xml:space="preserve">
-    <value>'{0}.png' কে '{0}.jpg' তে রূপান্তরিত করা হয়েছে</value>
+  <data name="RatingDialogSecondaryButtonText" xml:space="preserve">
+    <value>একটি সমস্যা রিপোর্ট করুন</value>
   </data>
-  <data name="StripMetadataCheckBox.Content" xml:space="preserve">
-    <value>স্ট্রিপ মেটাডেটা</value>
+  <data name="RatingDialogCloseButtonText" xml:space="preserve">
+    <value>পরে</value>
   </data>
-  <data name="PNGToPSDTextBlock.Text" xml:space="preserve">
-    <value>PNG থেকে PSD</value>
+  <data name="FinishedDialogTitle" xml:space="preserve">
+    <value>'{0}{1}' কে '{0}.{2}'-তে রূপান্তর করা হয়েছে</value>
   </data>
-  <data name="PNGToPSDFinishedDialogTitle" xml:space="preserve">
-    <value>'{0}.png' কে '{0}.psd' তে রূপান্তরিত করা হয়েছে</value>
+  <data name="FinishedDialogCloseButtonText" xml:space="preserve">
+    <value>ঠিক আছে</value>
   </data>
-  <data name="PNGToSVGTextBlock.Text" xml:space="preserve">
-    <value>PNG থেকে SVG</value>
+  <data name="ErrorDialogTitle" xml:space="preserve">
+    <value>ছবি রূপান্তর করতে ত্রুটি</value>
   </data>
-  <data name="PNGToSVGFinishedDialogTitle" xml:space="preserve">
-    <value>'{0}.png' কে '{0}.svg' তে রূপান্তরিত করা হয়েছে</value>
+  <data name="ErrorDialogPrimaryButtonText" xml:space="preserve">
+    <value>কপি ত্রুটি</value>
   </data>
-  <data name="PNGToTGATextBlock.Text" xml:space="preserve">
-    <value>PNG থেকে TGA</value>
-  </data>
-  <data name="PNGToTGAFinishedDialogTitle" xml:space="preserve">
-    <value>'{0}.png' কে '{0}.tga' তে রূপান্তরিত করা হয়েছে</value>
-  </data>
-  <data name="PNGToTIFFTextBlock.Text" xml:space="preserve">
-    <value>PNG থেকে TIFF</value>
-  </data>
-  <data name="PNGToTIFFFinishedDialogTitle" xml:space="preserve">
-    <value>'{0}.png' কে '{0}.tiff' তে রূপান্তরিত করা হয়েছে</value>
-  </data>
-  <data name="PNGToWebPTextBlock.Text" xml:space="preserve">
-    <value>PNG থেকে WebP</value>
-  </data>
-  <data name="PNGToWebPFinishedDialogTitle" xml:space="preserve">
-    <value>'{0}.png' কে '{0}.webp' তে রূপান্তরিত করা হয়েছে</value>
+  <data name="ErrorDialogCloseButtonText" xml:space="preserve">
+    <value>ঠিক আছে</value>
   </data>
 </root>

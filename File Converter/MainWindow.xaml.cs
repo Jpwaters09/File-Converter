@@ -12,37 +12,16 @@ namespace File_Converter_Utility
 {
     public sealed partial class MainWindow : Window
     {
-        public NavigationView NavView => NavBar;
-        public Frame AppFrame => ContentFrame;
-
         public MainWindow()
         {
             InitializeComponent();
-
-
             ThemeHelper.ActiveWindows.Add(this);
 
             string? savedTheme = ApplicationData.Current.LocalSettings.Values["AppTheme"]?.ToString();
-            string? savedNavViewPosition = ApplicationData.Current.LocalSettings.Values["NavViewPosition"]?.ToString();
 
             if (savedTheme != null)
             {
                 ThemeHelper.RootTheme = File_Converter_Utility.App.GetEnum<ElementTheme>(savedTheme);
-            }
-
-            if (savedNavViewPosition == null)
-            {
-                NavBar.PaneDisplayMode = NavigationViewPaneDisplayMode.Left;
-            }
-
-            else if (savedNavViewPosition == "Left")
-            {
-                NavBar.PaneDisplayMode = NavigationViewPaneDisplayMode.Left;
-            }
-
-            else if (savedNavViewPosition == "Top")
-            {
-                NavBar.PaneDisplayMode = NavigationViewPaneDisplayMode.Top;
             }
 
             this.ExtendsContentIntoTitleBar = true;
@@ -115,9 +94,6 @@ namespace File_Converter_Utility
             FrameNavigationOptions navOptions = new FrameNavigationOptions();
             navOptions.TransitionInfoOverride = args.RecommendedNavigationTransitionInfo;
 
-            var selectedItem = (NavigationViewItem)args.SelectedItem;
-            var tag = selectedItem.Tag?.ToString();
-
             if (sender.PaneDisplayMode == NavigationViewPaneDisplayMode.Top)
             {
                 navOptions.IsNavigationStackEnabled = false;
@@ -130,63 +106,9 @@ namespace File_Converter_Utility
                 pageType = typeof(SettingsPage);
             }
 
-            switch (tag)
+            else if (NavBar.SelectedItem == NavBar.MenuItems[0])
             {
-                case "HomePage":
-                    pageType = typeof(HomePage);
-                    break;
-
-                case "ImagePage":
-                    pageType = typeof(ImagePage);
-                    break;
-
-                case "ConvertPNG":
-                    pageType = typeof(ConvertFromPNGPage);
-                    break;
-
-                case "ConvertPNGToJPEG":
-                    pageType = typeof(ConvertPNGToJPEGPage);
-                    break;
-
-                case "ConvertPNGToBMP":
-                    pageType = typeof(ConvertPNGToBMPPage);
-                    break;
-
-                case "ConvertPNGToEPS":
-                    pageType = typeof(ConvertPNGToEPSPage);
-                    break;
-
-                case "ConvertPNGToGIF":
-                    pageType = typeof(ConvertPNGToGIFPage);
-                    break;
-
-                case "ConvertPNGToICO":
-                    pageType = typeof(ConvertPNGToICOPage);
-                    break;
-
-                case "ConvertPNGToJPG":
-                    pageType = typeof(ConvertPNGToJPGPage);
-                    break;
-
-                case "ConvertPNGToPSD":
-                    pageType = typeof(ConvertPNGToPSDPage);
-                    break;
-
-                case "ConvertPNGToSVG":
-                    pageType = typeof(ConvertPNGToSVGPage);
-                    break;
-
-                case "ConvertPNGToTGA":
-                    pageType = typeof(ConvertPNGToTGAPage);
-                    break;
-
-                case "ConvertPNGToTIFF":
-                    pageType = typeof(ConvertPNGToTIFFPage);
-                    break;
-
-                case "ConvertPNGToWebP":
-                    pageType = typeof(ConvertPNGToWebPPage);
-                    break;
+                pageType = typeof(HomePage);
             }
 
             ContentFrame.NavigateToType(pageType, null, navOptions);

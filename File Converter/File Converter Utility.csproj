@@ -43,10 +43,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="14.9.1" />
-    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.26100.6901" />
-    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.8.251106002" />
-    <PackageReference Include="System.Windows.Extensions" Version="10.0.0" />
+    <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="14.11.1" />
+    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.26100.7705" />
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.8.260317003" />
+    <PackageReference Include="System.Windows.Extensions" Version="10.0.5" />
   </ItemGroup>
 
   <ItemGroup>
@@ -110,11 +110,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ImageConvert\ConvertFromPNG\Conversions\" />
-    <Folder Include="Strings\NewFolder\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Page Update="ConvertPNGToWebPPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -159,7 +154,7 @@
     <AssemblyName>File Converter</AssemblyName>
     <Title>File Converter</Title>
     <Description>A fast and reliable file converter that seamlessly transforms images into your desired formats.</Description>
-    <Copyright>Copyright © 2025 Jacob Waters</Copyright>
+    <Copyright>Copyright © 2026 Jacob Waters. All rights reserved.</Copyright>
     <NeutralLanguage>en-GB</NeutralLanguage>
     <ApplicationIcon>File Converter Logo.ico</ApplicationIcon>
     <PackageIcon>File Converter Logo.png</PackageIcon>

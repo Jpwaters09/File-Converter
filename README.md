@@ -8,16 +8,11 @@
 ##
 
 <div align="center">
-  <img src="Images/Light - Home.png" height="100"/>
-  <img src="Images/Light - Image Convert.png" height="100"/>
-  <img src="Images/Light - PNG Convert.png" height="100"/>
-  <img src="Images/Light - PNG To JPEG.png" height="100"/>
-  <img src="Images/Light - Settings.png" height="100"/>
-  <img src="Images/Dark - Home.png" height="100"/>
-  <img src="Images/Dark - Image Convert.png" height="100"/>
-  <img src="Images/Dark - PNG Convert.png" height="100"/>
-  <img src="Images/Dark - PNG To JPEG.png" height="100"/>
-  <img src="Images/Dark - Settings.png" height="100"/>
+  <img src="Images/Welcome.png" height="100"/>
+  <img src="Images/Home - Light.png" height="100"/>
+  <img src="Images/Home - Dark.png" height="100"/>
+  <img src="Images/Settings - Light.png" height="100"/>
+  <img src="Images/Settings - Dark.png" height="100"/>
 </div>
 
 ##
@@ -28,19 +23,9 @@
 
 </div>
 
-**Supported File Conversions:**
-
- - PNG To BMP
- - PNG To EPS
- - PNG To GIF
- - PNG To ICO
- - PNG To JPEG
- - PNG To JPG
- - PNG To PSD
- - PNG To SVG
- - PNG To TGA
- - PNG To TIFF
- - PNG To WebP
+**Supported Image Conversions:**
+ - **Input:** BMP, GIF, ICO, JPEG, JPG, PNG, PSD, SVG, TGA, TIFF, WebP
+ - **Output:** BMP, EPS, GIF, ICO, JPEG, JPG, PNG, PSD, SVG, TGA, TIFF, WebP
 
 ##
 
@@ -48,27 +33,22 @@
 
 Some translations may be inaccurate.
 
- - Afrikaans
  - Arabic
  - Bengali
- - Danish
  - German
  - English (Australia)
  - English (Canada)
  - English (United Kingdom)
  - English (United States)
  - Spanish
- - Filipino
  - French
  - Hindi
  - Italian
  - Japanese
- - Nepali
- - Dutch
+ - Portuguese
  - Russian
  - Turkish
  - Ukrainian
- - Vietnamese
  - Chinese (Simplified)
  - Chinese (Traditional)
 
