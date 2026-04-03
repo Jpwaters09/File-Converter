@@ -8,11 +8,11 @@
 ##
 
 <div align="center">
-  <img src="Images/Welcome.png" height="100"/>
-  <img src="Images/Home - Light.png" height="100"/>
+  <img src="Images/Main.png" height="100"/>
   <img src="Images/Home - Dark.png" height="100"/>
-  <img src="Images/Settings - Light.png" height="100"/>
-  <img src="Images/Settings - Dark.png" height="100"/>
+  <img src="Images/Home - Light.png" height="100"/>
+  <img src="Images/Converted.png" height="100"/>
+  <img src="Images/Settings.png" height="100"/>
 </div>
 
 ##
